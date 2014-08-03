@@ -4,46 +4,62 @@
     ViewBag.Title = "Index";
 }
 
-<table>
+
 
     @foreach (var item in Model)
     {
+        <div id="imgUsuario">
+            <img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")'/>
+        </div>
+        <table id="tblAprobaciones">
+        
+            <thead>
+                <tr>
 
-        <tr>
-            <td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/" + item.foto)" width="100" height="100" /></td>
-            
-        </tr>
-        
-        <tr>
-            <td>@Html.DisplayNameFor(model => model.titulo):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.titulo)</td>
+                    <!-- Esto aquí se debe cambiar para que sea dinamico-->
+                    <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
+                    @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
+                    <td></td>
+                </tr>
+            </thead>
 
-        </tr>
-        
-        <tr>
-            <td>@Html.DisplayNameFor(model => model.categoria):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.categoria)</td>
-        </tr>
-        
-        <tr>
-            <td width="200">@Html.DisplayNameFor(model => model.fecha_publicacion):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.fecha_publicacion)</td>
-        </tr>
-        
-        <tr>
-            <td>@Html.DisplayNameFor(model => model.usuario):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.usuario)</td>
-        </tr>
-        <tr>
-            <td>@Html.DisplayNameFor(model => model.estado):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
-        </tr>
-        <tr>
-            <td colspan="3" align="center">
-                <button class="btn btn-primary" onclick="location.href = '@Url.Action("Procesar", "Aprovacion", new { id = item.publicacion_id })';">Procesar</button>
-</td>
-        </tr>
+            <tbody>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.titulo):</td>
+                    <td colspan="2">@Html.DisplayFor(modelItem => item.titulo)</td>
+
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.categoria):</td>
+                    <td colspan="2">@Html.DisplayFor(modelItem => item.categoria)</td>
+                </tr>
+
+                <tr>
+                    <td width="200">@Html.DisplayNameFor(model => model.fecha_publicacion):</td>
+                    <td colspan="2">@Html.DisplayFor(modelItem => item.fecha_publicacion)</td>
+                </tr>
+
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.usuario):</td>
+                    <td colspan="2">@Html.DisplayFor(modelItem => item.usuario)</td>
+                </tr>
+                <tr>
+                    <td>@Html.DisplayNameFor(model => model.estado):</td>
+                    <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
+                </tr>
+                      
+                <tr>
+                    <td colspan="2" align="center">
+                        <button class="btn btn-default" onclick="location.href = '@Url.Action("Procesar", "Aprovacion", new { id = item.publicacion_id })';">Procesar</button>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
     }
 
-</table>
+
 

@@ -282,3 +282,29 @@ footer ul li a:link {
 .centrar {
     text-align: center;
 }
+
+#tblAprobaciones{
+    border: solid 2px black;
+    margin-bottom: 10px;
+    width: 30%;
+}
+    #tblAprobaciones tbody tr td{
+        padding: 5px;
+    }
+#imgUsuario {
+    width: 7%;
+}
+#imgUsuario img{
+    width:100px; 
+    height: 100px; 
+    
+}
+#imgUsuario, #tblAprobaciones {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    
+}
+    #tblAprobaciones button {
+        margin: 5px;
+    }
