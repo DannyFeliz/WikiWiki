@@ -21,7 +21,8 @@
 <div class="contenidoPagina">
 
     <div id="contenedorPost">
-        @foreach (var item in Model)
+        @if (Model != null) { 
+        foreach (var item in Model)
         {
             <div class="listaPost" >
 
@@ -43,6 +44,10 @@
                     <b>Fuente:  </b> :@item.fuente_de_informacion
              </div>
             
+        }
+        }else{
+          <h2>Hola</h2>
+        
         }
     </div>
 

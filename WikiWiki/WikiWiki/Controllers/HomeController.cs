@@ -22,15 +22,44 @@ namespace Blog.Controllers
         //
         // GET: /BlogPost/
 
-        public ActionResult Publicaciones()
+        public ActionResult Publicaciones(String busqueda = null)
         {
+            //p => p.estado_id == 2 &&
+            //(p => busqueda == null || p.titulo.StartsWith(busqueda) || p.t)
+            if (busqueda == null)
+            {
+                var model = db.publicaciones
+               .Where(p => p.estado_id == 2)
+              .OrderBy(r => r.fecha_publicacion)
+              .Take(20).ToList();
+                return View(model);
+            }
+            else if (busqueda != null)
+            {
+                var model = db.publicaciones
+                    .Where(p => p.estado_id == 2 && p.titulo.Contains(busqueda) || p.informacion.Contains(busqueda))
+                   .OrderBy(r => r.fecha_publicacion)
+                   .Take(20).ToList();
+                if (model.Count() > 0)
+                {
+                    return View(model);
+                }
+                else {
+                  
 
-            var model = db.publicaciones
-                .Where(p => p.estado_id == 2)
-               .OrderBy(r => r.fecha_publicacion)
-               .Take(20).ToArray();
-            //            return View(db.BlogPosts.ToList());
-            return View(model);
+                    return View(model);
+                }
+                
+
+            }
+            else {
+                var mensaje = String.Format("No se encontró ningun resultado");
+
+                ViewBag.Message = mensaje;
+
+                return View(mensaje);
+            }
+
         }
 
         public ActionResult Acerca() {
