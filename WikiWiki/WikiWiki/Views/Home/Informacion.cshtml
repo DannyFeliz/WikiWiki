@@ -1,0 +1,29 @@
+﻿@model Blog.Models.publicaciones
+
+@{
+    ViewBag.Title = "Informacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Informacion</h2>
+
+<div>
+    
+    <div>
+
+        <h2><a href="">@Model.titulo</a></h2>
+
+        <div id="divFecha">
+            <h5>@Model.fecha_publicacion</h5>
+
+        </div>
+
+        <div id="infomacionPost">
+            @Html.Raw(Model.informacion)
+            <hr />
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Volver", "publicaciones")
+</p>

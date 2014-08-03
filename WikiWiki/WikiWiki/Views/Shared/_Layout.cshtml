@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Mi aplicación ASP.NET MVC</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+        <link href="~/Content/bootstrap-dialog.min.css" rel="stylesheet"  />
+        <link href="~/Content/normalize.css" rel="stylesheet" />
+        <link href="~/Content/style.css" rel="stylesheet" />
+        
+
+        @Scripts.Render("~/bundles/modernizr")
+        @Scripts.Render("~/bundles/jquery")
+
+    </head>
+<body>
+    <header>
+        @{ Html.RenderPartial("~/Views/Shared/_LoginPartial.cshtml"); }
+        @*<div id="btn-inicioSesion">
+            <a href="@Url.Action("Create","Home")" class="btn btn-primary">Publicar</a>
+            <a href="#" class="btn btn-primary">Registrar</a>
+            <a href="#" class="btn btn-primary">Iniciar Sesión</a>
+        </div>*@
+
+        <nav>
+            <ul>
+                <li id="inicio"><a href="@Url.Action("inicio","Home")">Inicio</a></li>
+                <li id="publicaciones"><a href="../Home/Publicaciones">Publicaciones</a></li>
+                <li id="acercanosotros"><a href="#">Acerca de nosotros</a></li>
+                <li id="contacto"><a href="../Home/Contact">Contactos</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+   
+    <section class="contenidoPagina">
+
+    </section>
+     
+       <section id="derecha">
+
+            <aside>
+                <div id="redesSociales">
+                    <h3 class="titulos">Redes sociales</h3>
+                    <div>
+                        <a href="#"><img src="~/Images/icons/facebook.png" /></a>
+                        <a href="#"><img src="~/Images/icons/twitter.png" /></a>
+                        <a href="#"><img src="~/Images/icons/google.png" /></a>
+                    </div>
+                </div>
+                <div id="categoria">
+                    <h3 class="titulos">Categoría</h3>
+                    <ul>
+                        <a href="#"><li>Deporte</li></a></a>
+                        <a href="#"><li>Economía</li></a>
+                        <a href="#"><li>Entretenimiento</li></a>
+                        <a href="#"><li>Internacionales</li></a>
+                        <a href="#"><li>Moda</li></a>
+                        <a href="#"><li>Religión</li></a>
+                        <a href="#"><li>Tecnología</li></a>
+
+                    </ul>
+                </div>
+            </aside>
+    </section>
+
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+    @RenderSection("scripts", required: false)
+    <footer>
+        <div id="mapa">
+            <span>Mapa del sítio</span>
+            <ul>
+                <li><a href="../Home/Inicio">Inicio</a></li>
+                <li><a href="#">Más Recientes</a></li>
+                <li><a href="#">Más Visitados</a></li>
+                <li><a href="#">Regístrate</a></li>
+
+            </ul>
+        </div>
+
+        <div id="mapa2">
+            <span>Otra Información</span>
+            <ul>
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="../Home/Create">Publicar</a></li>
+                <li><a href="#">Contácto</a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
+
+ @Scripts.Render("/Scripts/bootstrap-3.2.0-dist/js/bootstrap.js")

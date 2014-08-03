@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Blog.Models.publicaciones>
+@{
+    ViewBag.Title = "Publicaciones";
+}
+<style>
+    #publicaciones{
+        background-color: #2F67C4;
+        box-shadow: inset 0px -8px 0px 0px #1D547A;
+    }
+</style>
+<div id="submenu">
+    <ul>
+        <a id="linksPublicaciones" href="#"><li>Más Recientes</li></a>
+        <span>|</span>
+        <a id="linkVisitados" href="#"><li>Más Más Visitados</li></a>
+    </ul>
+</div>
+<h2>Publicaciones Más Recientes</h2>
+
+
+<div class="contenidoPagina">
+
+    <div id="contenedorPost">
+        @foreach (var item in Model)
+        {
+            <div class="listaPost" >
+
+                <h2><a href="">@item.titulo</a></h2>
+
+                <div id="divFecha">
+                    <h5>@item.fecha_publicacion</h5>
+                    
+                </div>
+
+                <div id="infomacionPost">
+                    @Html.Raw(item.informacion)
+                    
+                    <hr />
+                </div>
+            </div>
+            @Html.ActionLink("Ver mas", "Informacion", new { id = @item.publicacion_id });
+            <div id="divFuente">
+                    <b>Fuente:  </b> :@item.fuente_de_informacion
+             </div>
+            
+        }
+    </div>
+
+</div>

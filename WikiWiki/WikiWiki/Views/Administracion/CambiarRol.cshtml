@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Blog.Models.Role>
+
+@{
+    Layout = "";
+}
+
+
+@using (Html.BeginForm("CambiarRol", "Administracion", FormMethod.Post))
+{
+    <input name="usuarioID" type="hidden" value="@ViewBag.usuarioID" />
+     <p>
+    <select name="asignacion">
+        @foreach (var r in Model){
+            <option value="@r.rol_id">@r.tipo</option>
+        }
+    </select></p>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </div>
+}

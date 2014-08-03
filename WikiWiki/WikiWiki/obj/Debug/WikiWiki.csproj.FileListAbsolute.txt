@@ -1,0 +1,489 @@
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WikiWiki.dll.config
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WikiWiki.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WikiWiki.pdb
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Antlr3.Runtime.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.AspNet.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.Core.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\EntityFramework.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Data.Edm.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Data.OData.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Newtonsoft.Json.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Net.Http.Formatting.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Spatial.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Helpers.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Http.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Http.OData.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Http.WebHost.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Mvc.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Optimization.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Razor.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.WebPages.Deployment.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.WebPages.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.WebPages.Razor.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WebGrease.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WebMatrix.Data.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WebMatrix.WebData.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\EntityFramework.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Newtonsoft.Json.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Net.Http.Formatting.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Helpers.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Http.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Http.WebHost.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Mvc.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Razor.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.WebPages.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.WebPages.Deployment.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.WebPages.Razor.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WebMatrix.Data.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\WebMatrix.WebData.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.AspNet.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.Core.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Web.Http.OData.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Data.Edm.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\Microsoft.Data.OData.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\System.Spatial.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\EntityFramework.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Net.Http.Formatting.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Helpers.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Http.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Http.WebHost.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Mvc.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Optimization.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Razor.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.WebPages.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\WebMatrix.Data.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\WebMatrix.WebData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Web.Http.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\de\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\es\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\fr\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\it\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ja\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ko\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\ru\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\obj\Debug\WikiWiki.csprojResolveAssemblyReference.cache
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\obj\Debug\WikiWiki.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki\obj\Debug\WikiWiki.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\obj\Debug\WikiWiki.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WikiWiki.dll.config
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WikiWiki.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WikiWiki.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Antlr3.Runtime.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.Core.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\EntityFramework.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Data.Edm.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Data.OData.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Newtonsoft.Json.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Net.Http.Formatting.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Spatial.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Helpers.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Http.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Http.OData.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Http.WebHost.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Mvc.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Optimization.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Razor.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.WebPages.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WebGrease.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WebMatrix.Data.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WebMatrix.WebData.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\EntityFramework.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Newtonsoft.Json.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Net.Http.Formatting.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Helpers.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Http.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Http.WebHost.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Mvc.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Razor.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.WebPages.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WebMatrix.Data.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\WebMatrix.WebData.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.Core.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Http.OData.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Data.Edm.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Microsoft.Data.OData.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Spatial.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\System.Web.Razor.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\de\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\fr\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\it\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ja\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ko\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\ru\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\obj\Debug\WikiWiki.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\obj\Debug\WikiWiki.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Mono.Math.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Mono.Math.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\EntityFramework.SqlServer.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\Antlr3.Runtime.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\EntityFramework.SqlServer.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\System.Web.Optimization.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WikiWiki.dll.config
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WikiWiki.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WikiWiki.pdb
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Antlr3.Runtime.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.Core.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\EntityFramework.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.Edm.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.OData.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Newtonsoft.Json.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Spatial.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Helpers.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Http.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Http.OData.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Mvc.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Optimization.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Razor.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WebGrease.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WebMatrix.Data.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WebMatrix.WebData.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Mono.Math.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.Core.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\EntityFramework.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.Edm.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.OData.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Newtonsoft.Json.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Spatial.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Helpers.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Http.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Http.OData.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Mvc.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Optimization.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.Razor.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WebMatrix.Data.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\WebMatrix.WebData.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\Mono.Math.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\de\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\fr\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\it\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ja\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ko\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\ru\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\bin\es\System.Web.Razor.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\obj\Debug\WikiWiki.csprojResolveAssemblyReference.cache
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\obj\Debug\WikiWiki.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki\obj\Debug\WikiWiki.pdb
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WikiWiki.dll.config
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WikiWiki.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WikiWiki.pdb
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Antlr3.Runtime.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.Core.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\EntityFramework.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.Edm.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.OData.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Newtonsoft.Json.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Spatial.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Helpers.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Http.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Http.OData.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Mvc.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Optimization.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Razor.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WebGrease.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WebMatrix.Data.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WebMatrix.WebData.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Mono.Math.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.Core.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\EntityFramework.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.Edm.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Data.OData.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Newtonsoft.Json.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Spatial.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Helpers.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Http.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Http.OData.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Mvc.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Optimization.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.Razor.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WebMatrix.Data.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\WebMatrix.WebData.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\Mono.Math.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\de\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\fr\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\it\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ja\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ko\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\ru\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\bin\es\System.Web.Razor.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\obj\Debug\WikiWiki.csprojResolveAssemblyReference.cache
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\obj\Debug\WikiWiki.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki\obj\Debug\WikiWiki.pdb
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WikiWiki.dll.config
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WikiWiki.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WikiWiki.pdb
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Antlr3.Runtime.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.Core.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\EntityFramework.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Data.Edm.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Data.OData.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Newtonsoft.Json.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Net.Http.Formatting.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Spatial.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Helpers.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Http.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Http.OData.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Http.WebHost.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Mvc.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Optimization.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Razor.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.WebPages.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WebGrease.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WebMatrix.Data.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WebMatrix.WebData.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Mono.Math.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.Core.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\EntityFramework.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Data.Edm.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Data.OData.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Newtonsoft.Json.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Net.Http.Formatting.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Spatial.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Helpers.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Http.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Http.OData.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Http.WebHost.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Mvc.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Optimization.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.Razor.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.WebPages.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WebMatrix.Data.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\WebMatrix.WebData.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\Mono.Math.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\de\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\fr\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\it\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ja\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ko\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\ru\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\bin\es\System.Web.Razor.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\obj\Debug\WikiWiki.csprojResolveAssemblyReference.cache
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\obj\Debug\WikiWiki.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki\obj\Debug\WikiWiki.pdb

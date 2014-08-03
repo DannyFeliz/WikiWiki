@@ -1,0 +1,475 @@
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll.config
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.pdb
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Spatial.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Helpers.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Mvc.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Razor.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\EntityFramework.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Optimization.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.pdb
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Helpers.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Mvc.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Razor.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\System.Spatial.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\EntityFramework.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Net.Http.Formatting.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Helpers.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Http.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Http.WebHost.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Mvc.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.WebPages.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.WebPages.Razor.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Http.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\de\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\fr\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\it\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ja\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ko\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\ru\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\EntityFramework.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Web.WebPages.OAuth.resources.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.csprojResolveAssemblyReference.cache
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.dll
+c:\users\dany\documents\visual studio 2013\Projects\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll.config
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Spatial.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.pdb
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Spatial.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Http.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Mono.Math.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\Mono.Math.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.Data.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.Data.xml
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Ezequiel\Desktop\Barriga Chena\WikiWiki\WikiWiki.Tests\bin\Debug\es\WebMatrix.Data.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll.config
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.pdb
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Spatial.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\EntityFramework.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.Data.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Mono.Math.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.pdb
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Spatial.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\EntityFramework.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.Data.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Mono.Math.xml
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Web.Http.OData.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\WebMatrix.Data.resources.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.csprojResolveAssemblyReference.cache
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.dll
+C:\Users\PC\Pictures\WikiWikiPlus\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.pdb
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll.config
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.pdb
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Spatial.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\EntityFramework.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.Data.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Mono.Math.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WikiWiki.pdb
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Spatial.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\EntityFramework.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\WebMatrix.Data.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\Mono.Math.xml
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Web.Http.OData.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\bin\Debug\es\WebMatrix.Data.resources.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.csprojResolveAssemblyReference.cache
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.dll
+C:\Users\PC\Music\WikiWikiPlus\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.pdb
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll.config
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.Tests.pdb
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Spatial.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\EntityFramework.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.Data.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Mono.Math.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WikiWiki.pdb
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Spatial.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.OData.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\EntityFramework.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.WebData.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.AspNet.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\WebMatrix.Data.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\Mono.Math.xml
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Http.OData.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Razor.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\bin\Debug\es\WebMatrix.Data.resources.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.csprojResolveAssemblyReference.cache
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.dll
+C:\Users\PC\Pictures\WikiWiki\WikiWiki.Tests\obj\Debug\WikiWiki.Tests.pdb

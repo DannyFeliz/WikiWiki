@@ -1,0 +1,93 @@
+﻿@model Blog.Models.publicaciones
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>BlogPost</legend>
+
+        @Html.HiddenFor(model => model.publicaciones_id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.titulo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.titulo)
+            @Html.ValidationMessageFor(model => model.titulo)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.informacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.informacion)
+            @Html.ValidationMessageFor(model => model.informacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.fuente_de_informacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.fuente_de_informacion)
+            @Html.ValidationMessageFor(model => model.fuente_de_informacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.usuario_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.usuario_id)
+            @Html.ValidationMessageFor(model => model.usuario_id)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.fecha_publicacion)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.fecha_publicacion)
+            @Html.ValidationMessageFor(model => model.fecha_publicacion)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.visitas)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.visitas)
+            @Html.ValidationMessageFor(model => model.visitas)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.direccion_ip)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.direccion_ip)
+            @Html.ValidationMessageFor(model => model.direccion_ip)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.estado_id)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.estado_id)
+            @Html.ValidationMessageFor(model => model.estado_id)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Volver", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

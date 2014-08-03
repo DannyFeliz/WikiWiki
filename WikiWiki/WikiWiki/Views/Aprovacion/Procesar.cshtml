@@ -1,0 +1,93 @@
+﻿@model Blog.Models.Por_aprovar
+
+@{
+    ViewBag.Title = "Procesar";
+}
+
+<h2>Administracion de publicaciones</h2>
+
+<table width="800" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="5" align="center">@Html.DisplayFor(model => model.titulo)</td>
+    </tr>
+    <tr>
+        <td colspan="5">@Model.informacion</td>
+    </tr>
+    <tr>
+        <td width="120">Publicado por: </td>
+        <td width="64">@Html.DisplayFor(model => model.usuario)</td>
+        <td colspan="2">Fecha de publicacion:</td>
+        <td width="350">@Html.DisplayFor(model => model.fecha_publicacion)</td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center">
+            <button class="btn btn-primary" onclick="if(confirm('Deseas procesar?')){location.href='@Url.Action("Aprovar", "Aprovacion", new { id = Model.publicacion_id })';}">Aprovar</button> 
+            <button class="btn btn-primary" id="boxNegar" onclick="denegado(@Model.publicacion_id);">Rechazar</button>
+        </td>
+    </tr>
+</table>
+
+<div class="modal fade" id="ediciones-denegar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="tituloBox">Titulo</h4>
+            </div>
+            <div class="modal-body">
+                <div id="ediciones-box">
+                    <form action="@Url.Action("Rechazar","Aprovacion")" method="post"> 
+                        <input type="hidden" name="id" value="@Model.publicacion_id" />
+                        <p><label>Estado:</label> <select name="estado">
+                            @foreach(var estado in Model.estados){
+                                <option value="@estado.estado_id">@estado.estado1</option>
+                            }
+                        </select></p>
+                        <p><label>Motivo:</label> <textarea name="motivo" id="motivo" style="margin: 0px; width: 551px; height: 66px;"></textarea></p>
+                        <p><input type="submit" value="Aceptar" onclick="return validarRechazo();" /></p>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function denegado(p_id) {
+        var validacion = false;
+
+        if (confirm("Seguro que desea continuar con la peticion?") == true) {
+            validacion = true;
+            $('#boxNegar').attr('data-toggle', 'modal');
+            $('#boxNegar').attr('data-target', '#ediciones-denegar');
+            $("#tituloBox").text("Estado y motivos del rechazo");
+            $("#ediciones-denegar").load('RechazarPublicacion/' + p_id);
+        } else {
+            $('#boxNegar').removeAttr('data-toggle');
+            $('#boxNegar').removeAttr('data-target');
+        }
+
+        return validacion;
+    }
+
+    function validarRechazo() {
+
+        var valido = false;
+        var motivo = document.getElementById('motivo').value;
+
+        if (motivo.replace(/ /gi, '') != '') {
+            valido = true;
+            $('#id').val(''); 
+            $('#estado').prop("selectedIndex",1);
+            $('#motivo').val(''); 
+        } else {
+            document.getElementById('motivo').innerText = '';
+            alert('Debe escribir el motivo de su seleccion para continuar.');
+        }
+
+        return valido;
+    }
+</script>
+
+

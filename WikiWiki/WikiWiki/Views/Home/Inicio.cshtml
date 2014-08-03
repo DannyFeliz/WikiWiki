@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Blog.Models.publicaciones>
+
+@{
+    ViewBag.Title = "Inicio";
+}
+<!-- Insert to your webpage before the </head> -->
+<script src="~/Content/sliderengine/jquery.js"></script>
+<script src="~/Content/sliderengine/amazingslider.js"></script>
+<script src="~/Content/sliderengine/initslider-1.js"></script>
+<!-- End of head section HTML codes -->
+<h2>Inicio</h2>
+
+<section class="contenidoPagina">
+
+    <div id="slider">
+        <div style="margin:30px auto;max-width:900px;">
+
+            <!-- Insert to your webpage where you want to display the slider -->
+            <div id="amazingslider-1" style="display:block;position:relative;margin:16px auto 48px;">
+                <ul class="amazingslider-slides" style="display:none;">
+                    <li><img src="~/Images/images/wallpaper-1496419.jpg" alt="¿Te gusta mantenerte informado?" data-description="Tenemos un programa de actualización frecuente así que siempre nos mantendremos brindando nuevos contenidos." /></li>
+                    <li><img src="~/Images/images/productivity.jpg" alt="Aumentar la productividad trabajando desde la casa " data-description="Cinco consejos de cómo aumentar la productividad trabajando desde casa." /></li>
+                    <li><img src="~/Images/images/wallpaper-645549.jpg" alt="¿Le tienes miedo a las matemáticas?" data-description="Nosotros te daremos algunos tips  que te pueden ayudar para mejorar tus calificaciones en matemáticas." /></li>
+                    <li><img src="~/Images/images/wallpaper-2217584.jpg" alt="11 reglas de Bill Gates" data-description="11 reglas para la vida dictadas por el gran Bill Gate." /></li>
+                    <li><img src="~/Images/images/wallpaper-1424435.png" alt="Las diferentes aplicaciones de las mátemáticas" data-description="La matemática como tal es como dirían es &quot;El lenguaje con el que se creó el universo&quot; pero veremos para qué son útiles para los programadores." /></li>
+                    <li><img src="~/Images/images/wallpaper-2045049.jpg" alt="¿Te gusta lo que hacemos?" data-description="Que tal si nos recomiendas con tus amigos y asi crecemos todos juntos." /></li>
+                </ul>
+                <ul class="amazingslider-thumbnails" style="display:none;">
+                    <li><img src="~/Images/images/wallpaper-1496419-tn.jpg" /></li>
+                    <li><img src="~/Images/images/productivity-tn.jpg" /></li>
+                    <li><img src="~/Images/images/wallpaper-645549-tn.jpg" /></li>
+                    <li><img src="~/Images/images/wallpaper-2217584-tn.jpg" /></li>
+                    <li><img src="~/Images/images/wallpaper-1424435-tn.png" /></li>
+                    <li><img src="~/Images/images/wallpaper-2045049-tn.jpg" /></li>
+                </ul>
+                <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com" title="Responsive jQuery Slider">Responsive jQuery Slider</a></div>
+            </div>
+        </div>
+        </div>
+
+    <br/><br /><br />
+    <h3>Últimas Publicaciónes</h3>
+    <hr />
+
+    <section id="postReciente">
+        
+            @foreach (var item in Model)
+            {
+                <article id="ultimosPost" class="">
+
+                    <h2><a href="" style="font-size:15px">@item.titulo</a></h2>
+
+                    <div id="divFecha">
+                        <h5>@item.fecha_publicacion</h5>
+                    </div>
+
+                </article>
+            }
+        
+    </section>
+        <br /><br /><br />
+        <h2>Post más visitados</h2>
+        <hr />
+
+    
+        <section id="postReciente">
+
+            @foreach (var item in Model)
+            {
+                <article id="ultimosPost" class="">
+
+                    <h2><a href="" style="font-size:15px">@item.titulo</a></h2>
+
+                    <div id="divFecha">
+                        <h5>@item.fecha_publicacion</h5>
+                    </div>
+
+                </article>
+            }
+
+        </section>
+    </section>
+    
+

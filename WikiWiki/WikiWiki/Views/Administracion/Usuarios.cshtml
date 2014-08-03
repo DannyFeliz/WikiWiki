@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Blog.Models.Usuario>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Usuarios</title>
+</head>
+<body>
+    @ViewBag.mensaje
+  <table>
+
+    @foreach (var item in Model) {
+        
+        <tr>
+            <td width="90" rowspan="4"><img src="@Url.Content("~/Images/Usuarios/" + item.foto)" width="100" height="100"/></td>
+            <td width="80">@Html.DisplayNameFor(model => model.usuario1):</td>
+            <td colspan="2">@Html.DisplayFor(modelItem => item.usuario1)</td>
+        </tr>
+        <tr>
+            <td width="150">@Html.DisplayNameFor(model => model.nombreCompleto):</td>
+            <td colspan="2">@Html.DisplayFor(modelItem => item.nombreCompleto)</td>
+        </tr>
+        <tr>
+            <td>@Html.DisplayNameFor(model => model.rol):</td>
+            <td colspan="2">@Html.DisplayFor(modelItem => item.rol)</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button class="btn btn-primary" data-toggle="modal" data-target="#ediciones-administracion" onclick="cambiar(@item.usuario_id);">Cambiar rol</button>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#ediciones-administracion" onclick="detalles(@item.usuario_id);">Detalles</button>
+                <button class="btn btn-primary" id="estado" onclick="estadoUsuario(@item.usuario_id);">
+                   @if(item.estado == 1){
+                       <n>Desactivar</n>
+                   }
+                   else
+                   {
+                       <n>Activar</n>
+                   }
+                </button>
+            </td>
+        </tr>
+    }
+    
+    </table>
+
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="ediciones-administracion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="tituloBox">Titulo</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="ediciones-box"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+
+    function cambiar(id) {
+        $("#tituloBox").text("Cambiar rol");
+        $("#ediciones-box").load('CambiarRol/' + id);
+    }
+
+    function detalles(id){
+        $("#tituloBox").text("Detalles");
+        $("#ediciones-box").load('Detalles/' + id);
+    }
+
+    function estadoUsuario(id){
+        var validacion = false;
+
+        if(confirm("Seguro que desea continuar con la peticion?")){
+            validacion = true;
+            //$("#ediciones-box").load('CambiarEstado/' + id);
+            document.location = 'CambiarEstado/' + id;
+        }
+
+        return validacion;
+    }
+</script>

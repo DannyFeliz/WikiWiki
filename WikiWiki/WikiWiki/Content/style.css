@@ -1,0 +1,284 @@
+﻿body {  
+    
+
+}
+#derecha{
+    position: relative;
+    float: right;
+    right: -28px;
+    width: 21%;
+   
+    margin-top: 82px;
+    
+}
+
+#divFecha 
+{
+    color: gray;  
+    border-bottom: dashed 2px #F0F0F0; 
+}
+#divFuente 
+{   
+    color: gray;    
+    margin-bottom: 30px;
+    padding: 5px;
+    /*-webkit-transform: translate(12px,-20px);*/
+}
+
+nav{
+    background-color: #387AE8;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+}
+    nav ul li:hover {
+        background-color: #2F67C4;
+        box-shadow: inset 0px -8px 0px 0px #1D547A;
+        -webkit-transition: all .50s ease;
+	   -moz-transition: all .50s ease;
+	    -ms-transition: all .50s ease;
+	     -o-transition: all .50s ease;
+	        transition: all .50s ease;
+    
+    }
+nav ul li a {
+    color: #DAE2FF;
+}
+    nav ul li a:hover {
+        color: white;
+    }
+nav ul li a:link{
+    font-size: 22px;
+    text-decoration: none; 
+    color: #DAE2FF;
+
+}
+#btn-inicioSesion{
+   margin-right: 3%; 
+   margin-bottom: 10px;
+   text-align: right;
+}
+
+#btn-inicioSesion a {
+    padding: 10px;    
+}
+#btn-inicioSesion a:link {
+    text-decoration: none; 
+}
+
+.contenidoPagina {
+    width: 75%;
+    margin-left: 2%;
+    
+}
+#slider, aside{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#slider {
+   
+   margin-left: 40px;
+    
+}
+#redesSociales {
+   border: 1px solid #DAE2FF;
+   border-radius: 10px;
+   margin-right: 32px;
+   margin-bottom: 10px;
+  padding-right: 10px;
+}
+#redesSociales img {
+        
+}
+
+#postReciente {
+    
+}
+#postReciente  article{
+    background-color: #efefef;
+    display: inline-block;
+    width: 30%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    margin: 10px;
+    border: 1px solid #DAE2FF;
+    border-radius: 10px;
+    border-bottom: 0;
+    padding-left: 5px;
+}   
+    #postReciente article #divFecha {
+    border-bottom: 0;
+    
+    }
+   
+#postVisitados {
+    width: 70%;
+
+}
+#postVisitados article {
+     display: inline-block;
+    width: 32%;
+    margin-right: 1%;
+    border: solid 1px black;
+}
+footer span {
+    margin-top: 40px;
+    font-weight: bold;
+    color: white;
+}
+footer {
+    padding-top: 15px;
+    background-color: #387AE8;
+    margin-top: 5%;
+   height: 170px;
+}
+    footer div {
+        border-right: 2px white dotted;
+        width: 18%;
+    }
+footer ul li {
+    list-style: none;
+   
+}
+    footer ul li a {
+        color: white;
+    }
+footer ul li a:link {
+   text-decoration: none;
+   
+
+}
+#mapa, #mapa2 {
+    display: inline-block;
+}
+#mapa {
+    margin-left: 5%;
+ 
+
+}
+#mapa2 {
+
+}
+
+#redesSociales div {
+    margin: 0 auto;
+    text-align: center;
+}
+#redesSociales div img {
+    padding-left: 15px;
+    width: 75px;
+    margin-bottom: 10px;
+}
+#categoria ul {
+    list-style:  none;
+    font-size: 20px;
+    -webkit-transform: translateX(-16px);
+    
+}
+#categoria a {
+    text-decoration: none;
+}
+#categoria {
+    margin-right: 32px;
+    margin-bottom: 5px;
+     border: 1px solid #DAE2FF;
+     border-radius: 10px;
+}
+
+.titulos {
+   border-bottom: dashed 2px #F0F0F0;
+   text-align: center;
+   padding-bottom: 5px;
+   color:#428bca ;
+}
+#submenu {
+    
+}
+#submenu ul{
+    -webkit-transform: translateY(-10px);
+    
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    background-color: #1656C0;
+
+
+}
+    #submenu li {
+        
+        display: inline-block;
+  
+    }
+        #submenu ul li a {
+            text-decoration: none;
+            color: white;
+        }
+#linksPublicaciones {
+    margin-left: 100px;
+    color: white;
+}
+#linkVisitados {
+    color: white;
+}
+
+.listaPost {
+   height: 200px;
+   border: 1px solid #DAE2FF;
+    border-radius: 10px;
+   overflow:hidden;
+   
+   padding: 10px;
+   
+   
+   
+   
+   border-radius: 10px;
+}
+
+#infomacionPost {
+        
+    padding-bottom: 70px;
+}
+#contenedorPost {
+    
+    
+}
+#submenu {
+    margin-top: -10px;
+}
+.tituloPost {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+.informacionPost {
+    margin: 25px;
+}
+.fuente {
+    margin: 25px;
+}
+.fuente span {
+    font-weight: bold;
+}
+.fecha {
+    margin: 25px;
+}
+.fecha span {
+    font-weight: bold;
+}
+
+.btnVolver a {
+    text-align: center;
+    text-decoration: none;
+
+
+}
+.centrar {
+    text-align: center;
+}

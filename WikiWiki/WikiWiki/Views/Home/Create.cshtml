@@ -1,0 +1,151 @@
+﻿@model Blog.Models.publicaciones
+
+@{
+    ViewBag.Title = "Create";
+
+}
+
+@Scripts.Render("~/Scripts/bootstrap-dialog.min.js")
+@Scripts.Render("~/Content/tinymce/js/tinymce/tinymce.dev.js")
+@Scripts.Render("~/Content/tinymce/js/tinymce/plugins/table/plugin.dev.js")
+@Scripts.Render("~/Content/tinymce/js/tinymce/plugins/paste/plugin.dev.js")
+@Scripts.Render("~/Content/tinymce/js/tinymce/plugins/spellchecker/plugin.dev.js")
+
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-dialog.min.css" rel="stylesheet" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <form action="" class="" id="myform" method="POST" role="form">
+                <legend>Nueva Publicacion</legend>
+
+                <div class="form-group">
+                    <label for="">Titulo:</label>
+                    <input type="text" class="form-control" id="titulo" name="titulo" placeholder="...">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Contenido:</label>
+                    <textarea id="informacion" name="informacion"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <!--<label for="categoria">Fuente de Informacion:</label> -->
+                    <input type="hidden" class="form-control" id="categoria_id" name="categoria_id" value="@Model.categoria_id" placeholder="...">
+                    <input type="hidden" class="form-control" id="usuario_id" name="usuario_id" value="@Model.usuario_id" placeholder="...">
+                </div>
+
+                <div class="form-group">
+                    <label for="fuente_de_informacion">Fuente de Informacion:</label>
+                    <input type="text" class="form-control" id="fuente_de_informacion" name="fuente_de_informacion" placeholder="...">
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-offset-9">
+                        <button type="button" id="sendForm" class="btn btn-primary">Previsualizar</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+
+    <script type="text/javascript">
+
+    $('#sendForm').click(function () {
+        var cont = $('#informacion').val();
+        var titulo = $('#Titulo').val();
+        BootstrapDialog.show({
+            title: titulo,
+            message: cont,
+            buttons: [{
+                label: 'Aun no',
+                action: function (dialog) {
+                    dialog.close();
+                }
+            }, {
+                label: "Hecho",
+                cssClass: 'mce-ico mce-i-preview',
+                action: function () {
+                    $("#myform").submit();
+                }
+            }]
+        });
+    });
+
+
+        ///<button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-preview"></i></button>
+    tinymce.init({
+        selector: "textarea#informacion",
+        theme: "modern",
+        plugins: [
+			"advlist autolink autosave link image lists charmap print preview hr anchor pagebreak spellchecker",
+			"searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+			"save table contextmenu directionality emoticons template textcolor paste fullpage textcolor colorpicker"
+        ],
+        external_plugins: {
+            //"moxiemanager": "/moxiema,nager-php/plugin.js"
+        },
+        content_css: '@Url.Content("~/Content/tinymce/tests/manual/css/development.css")',
+        add_unload_trigger: false,
+        autosave_ask_before_unload: false,
+
+        toolbar1: "save newdocument fullpage | bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | styleselect formatselect fontselect fontsizeselect",
+        toolbar2: "cut copy paste pastetext | searchreplace | bullist numlist | outdent indent blockquote | undo redo | link unlink anchor image media help code | insertdatetime preview | forecolor backcolor",
+        toolbar3: "table | hr removeformat | subscript superscript | charmap emoticons | print fullscreen | ltr rtl | spellchecker | visualchars visualblocks nonbreaking template pagebreak restoredraft | insertfile insertimage",
+        menubar: false,
+        toolbar_items_size: 'small',
+
+        style_formats: [
+			{ title: 'Bold text', inline: 'b' },
+			{ title: 'Red text', inline: 'span', styles: { color: '#ff0000' } },
+			{ title: 'Red header', block: 'h1', styles: { color: '#ff0000' } },
+			{ title: 'Example 1', inline: 'span', classes: 'example1' },
+			{ title: 'Example 2', inline: 'span', classes: 'example2' },
+			{ title: 'Table styles' },
+			{ title: 'Table row 1', selector: 'tr', classes: 'tablerow1' }
+        ],
+
+        templates: [
+			{ title: 'My template 1', description: 'Some fancy template 1', content: 'My html' },
+			{ title: 'My template 2', description: 'Some fancy template 2', url: 'development.html' }
+        ],
+
+        spellchecker_callback: function (method, data, success) {
+            if (method == "spellcheck") {
+                var words = data.match(this.getWordCharPattern());
+                var suggestions = {};
+
+                for (var i = 0; i < words.length; i++) {
+                    suggestions[words[i]] = ["First", "second"];
+                }
+
+                success({ words: suggestions, dictionary: true });
+            }
+
+            if (method == "addToDictionary") {
+                success();
+            }
+        }
+    });
+
+
+
+
+
+
+    </script>
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

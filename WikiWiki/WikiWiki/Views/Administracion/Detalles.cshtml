@@ -1,0 +1,88 @@
+﻿@model Blog.Models.Usuario
+
+@{
+    Layout = "";
+}
+
+<h4 class="modal-title" id="myModalLabel">Cambiar Rol</h4>
+<fieldset>
+    <legend>usuario</legend>
+    
+    <div class="display-label">
+            @Html.DisplayNameFor(model => model.usuario_id)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.usuario_id)
+    </div>
+    
+    <div class="display-label">
+            @Html.DisplayNameFor(model => model.foto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.foto)
+    </div>
+    
+    <div class="display-label">
+            @Html.DisplayNameFor(model => model.usuario1)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.usuario1)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.estado)
+    </div>
+    <div class="display-field">
+        @if (Model.estado == 1)
+        {
+            <n>Activo</n>
+        }
+        else
+        {
+            <n>Desactivado</n>
+        }
+    </div>
+    
+    <div class="display-label">
+            @Html.DisplayNameFor(model => model.email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.email)
+    </div>
+    
+    <div class="display-label">
+            @Html.DisplayNameFor(model => model.nombreCompleto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nombreCompleto)
+    </div>
+    
+    <div class="display-label">
+            @Html.DisplayNameFor(model => model.rol)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.rol)
+    </div>
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.nacimiento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nacimiento)
+    </div>
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.ocupacion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ocupacion)
+    </div>
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.direccion)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.direccion)
+    </div>
+</fieldset>
+
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+</div>
