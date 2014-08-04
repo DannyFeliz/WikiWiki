@@ -1,0 +1,45 @@
+﻿@model Blog.Models.Logeo
+
+@{
+    ViewBag.Title = "Iniciar Seccion";
+}
+
+<section id="loginForm">
+    <div style="width:30%; margin:auto; margin-top:3% ">
+        <h2 class="centrar">Inicia sesi&oacute;n en WikiWiki</h2>
+        <div style="width:100%; margin:auto; margin-top:3%">
+            @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+
+                <fieldset style="border-radius:5%;">
+                    <div class="form-group">
+                        <span><strong>Usuario</strong></span>
+                        @Html.TextBoxFor(m => m.usuario, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.usuario)
+                    </div>
+
+                    <div class="form-group">
+                    <span><strong>Clave</strong></span>
+                    @Html.PasswordFor(m => m.clave, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.clave)
+                    </div>
+
+                    <label>@Html.CheckBoxFor(m => m.recordarme) Recordarme@*@Html.LabelFor(m => m.recordarme, new { @class = "checkbox" })*@</label>
+                    <br>
+                    <div class="centrar">
+                        <input type="submit" value="Iniciar sesi&oacute;n" class="btn btn-default" />
+                        @Html.ActionLink("Cancelar", "Inicio", "Home", routeValues: null,  htmlAttributes: new { @class = "btn btn-default" })
+                    </div>
+                </fieldset>
+                <div class="centrar" style="margin-top:3%">
+                    <p>
+                        Si aun no tienes una cuenta con nosotros, registrate y espera nuevas emociones.
+                    </p>
+                    @Html.ActionLink("Registrar", "Registrar", "Logeo", htmlAttributes: new { @class = "btn btn-default" })
+                </div>
+            }
+        </div>
+    </div>
+</section>
