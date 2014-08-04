@@ -1,65 +1,66 @@
 ﻿@model IEnumerable<Blog.Models.Por_aprovar>
 
+@{ Html.RenderPartial("~/Views/Shared/_Submenu.cshtml"); }
 @{
     ViewBag.Title = "Index";
 }
 
 
+@foreach (var item in Model)
+{
+    <div id="imgUsuario">
+        <img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")' />
+    </div>
+    <table id="tblAprobaciones">
 
-    @foreach (var item in Model)
-    {
-        <div id="imgUsuario">
-            <img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")'/>
-        </div>
-        <table id="tblAprobaciones">
-        
-            <thead>
-                <tr>
+        <thead>
+            <tr>
 
-                    <!-- Esto aquí se debe cambiar para que sea dinamico-->
-                    <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
-                    @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
-                    <td></td>
-                </tr>
-            </thead>
+                <!-- Esto aquí se debe cambiar para que sea dinamico-->
+                <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
+                @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
+                <td></td>
+            </tr>
+        </thead>
 
-            <tbody>
+        <tbody>
 
-                <tr>
-                    <td>@Html.DisplayNameFor(model => model.titulo):</td>
-                    <td colspan="2">@Html.DisplayFor(modelItem => item.titulo)</td>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.titulo):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.titulo)</td>
 
-                </tr>
+            </tr>
 
-                <tr>
-                    <td>@Html.DisplayNameFor(model => model.categoria):</td>
-                    <td colspan="2">@Html.DisplayFor(modelItem => item.categoria)</td>
-                </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.categoria):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.categoria)</td>
+            </tr>
 
-                <tr>
-                    <td width="200">@Html.DisplayNameFor(model => model.fecha_publicacion):</td>
-                    <td colspan="2">@Html.DisplayFor(modelItem => item.fecha_publicacion)</td>
-                </tr>
+            <tr>
+                <td width="200">@Html.DisplayNameFor(model => model.fecha_publicacion):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.fecha_publicacion)</td>
+            </tr>
 
-                <tr>
-                    <td>@Html.DisplayNameFor(model => model.usuario):</td>
-                    <td colspan="2">@Html.DisplayFor(modelItem => item.usuario)</td>
-                </tr>
-                <tr>
-                    <td>@Html.DisplayNameFor(model => model.estado):</td>
-                    <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
-                </tr>
-                      
-                <tr>
-                    <td colspan="2" align="center">
-                        <button class="btn btn-default" onclick="location.href = '@Url.Action("Procesar", "Aprovacion", new { id = item.publicacion_id })';">Procesar</button>
-                    </td>
-                </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.usuario):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.usuario)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.estado):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
+            </tr>
 
-            </tbody>
+            <tr>
+                <td colspan="2" align="center">
+                    <button class="btn btn-default" onclick="location.href = '@Url.Action("Procesar", "Aprovacion", new { id = item.publicacion_id })';">Procesar</button>
+                </td>
+            </tr>
 
-        </table>
-    }
+        </tbody>
+
+    </table>
+
+}
 
 
 

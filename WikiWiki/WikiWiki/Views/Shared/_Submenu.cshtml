@@ -1,0 +1,17 @@
+﻿
+@if (Request.IsAuthenticated)
+{
+    <div class="submenu">
+    <ul class="listaSubmenu">
+        <li><a href="#">Publicaciones Aprobadas</a></li>
+        <span>|</span>
+        <li> <a id="linkRechazado" href="#">Publicaciones Rechazadas</a></li>
+        <span>|</span>
+        <li><a href="#">Historial</a></li>
+    </ul>
+</div>
+}
+else
+{
+    
+}

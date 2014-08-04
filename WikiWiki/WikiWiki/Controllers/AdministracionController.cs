@@ -8,7 +8,7 @@ using System.Web.Mvc;
 
 namespace Blog.Controllers
 {
-     //[RoleAttribute(Roles = "Administrador")]
+     [RoleAttribute(Roles = "Administrador")]
     
     public class AdministracionController : Controller
     {

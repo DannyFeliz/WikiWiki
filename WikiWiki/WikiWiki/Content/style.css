@@ -197,12 +197,11 @@ footer ul li a:link {
    padding-bottom: 5px;
    color:#428bca ;
 }
-#submenu {
+.submenu {
     
 }
-#submenu ul{
+.submenu ul{
     -webkit-transform: translateY(-10px);
-    
     margin: 0;
     padding: 0;
     list-style: none; 
@@ -210,34 +209,34 @@ footer ul li a:link {
 
 
 }
-    #submenu li {
+    .submenu li {
         
         display: inline-block;
   
     }
-        #submenu ul li a {
+        .submenu ul li a {
             text-decoration: none;
             color: white;
         }
 #linksPublicaciones {
-    margin-left: 100px;
+    
     color: white;
 }
 #linkVisitados {
     color: white;
 }
+.listaSubmenu li{
+    
+    color: white;
+}
+
 
 .listaPost {
    height: 200px;
    border: 1px solid #DAE2FF;
     border-radius: 10px;
    overflow:hidden;
-   
    padding: 10px;
-   
-   
-   
-   
    border-radius: 10px;
 }
 
@@ -308,3 +307,10 @@ footer ul li a:link {
     #tblAprobaciones button {
         margin: 5px;
     }
+#linkRechazado {
+    
+}
+#division{
+    width: 30%;
+    display: inline-block;
+}
