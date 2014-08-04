@@ -22,6 +22,10 @@ namespace Blog.Controllers
         private UsersContext db = new UsersContext();
         RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
 
+        public ActionResult Index() {
+            return RedirectToAction("Iniciar");
+        }
+
         public ActionResult Iniciar()
         {
             return View();

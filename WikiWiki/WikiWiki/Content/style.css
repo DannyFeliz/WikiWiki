@@ -8,7 +8,7 @@
     right: -28px;
     width: 21%;
    
-    margin-top: 0px;
+    margin-top: 20px;
     
 }
 
@@ -198,7 +198,7 @@ footer ul li a:link {
    color:#428bca ;
 }
 .submenu {
-    
+    margin-top: -10px;
 }
 .submenu ul{
     -webkit-transform: translateY(-10px);
