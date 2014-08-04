@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
+using PagedList.Mvc;
 
 namespace Blog.Controllers
 {
@@ -22,9 +24,9 @@ namespace Blog.Controllers
         }
 
         
-        public ActionResult Usuarios(){
+        public ActionResult Usuarios(int pagina = 1){
 
-            var user = repositorioUsuario.getUsuarios();
+            var user = repositorioUsuario.getUsuarios().ToPagedList(pagina, 10);
             
             return View(user);
         }

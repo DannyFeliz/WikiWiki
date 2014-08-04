@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
 
 namespace Blog.Controllers
 {
@@ -17,10 +18,10 @@ namespace Blog.Controllers
         //
         // GET: /Aprovacion/
 
-        public ActionResult Index()
+        public ActionResult Index(int pagina = 1)
         {
 
-            return View(repositorio.porAprovar());
+            return View(repositorio.porAprovar().ToPagedList(pagina, 6));
         }
 
         // Procesar los articulos

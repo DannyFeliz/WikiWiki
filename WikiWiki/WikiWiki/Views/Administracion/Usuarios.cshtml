@@ -1,5 +1,9 @@
-﻿@model IEnumerable<Blog.Models.Usuario>
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Blog.Models.Usuario>
 @{ Html.RenderPartial("~/Views/Shared/_Submenu.cshtml"); }
+
+
 <!DOCTYPE html>
 
 <html>
@@ -15,15 +19,15 @@
         
         <tr>
             <td width="90" rowspan="4"><img src="@Url.Content("~/Images/Usuarios/" + item.foto)" width="100" height="100"/></td>
-            <td width="80">@Html.DisplayNameFor(model => model.usuario1):</td>
+            <td width="80">@Html.DisplayNameFor(model => model.First().usuario1):</td>
             <td colspan="2">@Html.DisplayFor(modelItem => item.usuario1)</td>
         </tr>
         <tr>
-            <td width="150">@Html.DisplayNameFor(model => model.nombreCompleto):</td>
+            <td width="150">@Html.DisplayNameFor(model => model.First().nombreCompleto):</td>
             <td colspan="2">@Html.DisplayFor(modelItem => item.nombreCompleto)</td>
         </tr>
         <tr>
-            <td>@Html.DisplayNameFor(model => model.rol):</td>
+            <td>@Html.DisplayNameFor(model => model.First().rol):</td>
             <td colspan="2">@Html.DisplayFor(modelItem => item.rol)</td>
         </tr>
         <tr>
@@ -87,3 +91,7 @@
         return validacion;
     }
 </script>
+
+<div class="pageList" data-otf-target="#usuarios">
+    @Html.PagedListPager(Model, pagina => Url.Action("", new { pagina }))
+</div>

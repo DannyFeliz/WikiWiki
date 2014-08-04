@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Blog.Models.Por_aprovar>
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Blog.Models.Por_aprovar>
 
 @{ Html.RenderPartial("~/Views/Shared/_Submenu.cshtml"); }
 @{
@@ -26,27 +28,27 @@
         <tbody>
 
             <tr>
-                <td>@Html.DisplayNameFor(model => model.titulo):</td>
+                <td>@Html.DisplayNameFor(model => model.First().titulo):</td>
                 <td colspan="2">@Html.DisplayFor(modelItem => item.titulo)</td>
 
             </tr>
 
             <tr>
-                <td>@Html.DisplayNameFor(model => model.categoria):</td>
+                <td>@Html.DisplayNameFor(model => model.First().categoria):</td>
                 <td colspan="2">@Html.DisplayFor(modelItem => item.categoria)</td>
             </tr>
 
             <tr>
-                <td width="200">@Html.DisplayNameFor(model => model.fecha_publicacion):</td>
+                <td width="200">@Html.DisplayNameFor(model => model.First().fecha_publicacion):</td>
                 <td colspan="2">@Html.DisplayFor(modelItem => item.fecha_publicacion)</td>
             </tr>
 
             <tr>
-                <td>@Html.DisplayNameFor(model => model.usuario):</td>
+                <td>@Html.DisplayNameFor(model => model.First().usuario):</td>
                 <td colspan="2">@Html.DisplayFor(modelItem => item.usuario)</td>
             </tr>
             <tr>
-                <td>@Html.DisplayNameFor(model => model.estado):</td>
+                <td>@Html.DisplayNameFor(model => model.First().estado):</td>
                 <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
             </tr>
 
@@ -61,6 +63,10 @@
     </table>
 
 }
+
+<div class="pageList" data-otf-target="#usuarios">
+    @Html.PagedListPager(Model, pagina => Url.Action("", new { pagina }))
+</div>
 
 
 
