@@ -8,7 +8,7 @@
     right: -28px;
     width: 21%;
    
-    margin-top: 82px;
+    margin-top: 0px;
     
 }
 
@@ -314,3 +314,13 @@ footer ul li a:link {
     width: 30%;
     display: inline-block;
 }
+#acercaNosotros {
+    margin: 4%;
+    
+}
+    #acercaNosotros p,strong {
+        font-size: 18px;
+    }
+    #acercaNosotros a {
+        text-decoration:none;
+    }
