@@ -7,6 +7,8 @@ using System.Web;
 using System.Web.Mvc;
 using PagedList;
 using PagedList.Mvc;
+using WikiWiki.Models;
+using Blog.Models;
 
 namespace Blog.Controllers
 {
@@ -15,6 +17,7 @@ namespace Blog.Controllers
     public class AdministracionController : Controller
     {
         RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
+        UsersContext db = new UsersContext();
         //
         // GET: /Administracion/
 
@@ -62,6 +65,21 @@ namespace Blog.Controllers
             repositorioUsuario.CambiarEstado(id);
             return RedirectToAction("Usuarios", "Administracion");
         }
-        
+
+        public ActionResult Categoria() {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Categoria(Categoria datosCategoria) {
+            if(ModelState.IsValid){
+                db.categoria.Add(new Categoria { 
+                    categoria = datosCategoria.categoria
+                });
+                db.SaveChanges();
+                return View();
+            }
+            return View();
+        }
     }
 }

@@ -5,89 +5,96 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Registrar</h2>
+<link href="@Url.Content("~/Content/themess/base/minified/jquery-ui.min.css")" rel="stylesheet" />
+<!-- Required jQuery and jQuery UI Javascript references -->
+<script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui-1.10.4.min.js")"></script>
+
+
 
 @using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>Registro</h4>
-        <hr />
-        @Html.ValidationSummary(true)
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.nombre, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.nombre)
-                @Html.ValidationMessageFor(model => model.nombre)
-            </div>
+    @Html.ValidationSummary(true)
+    <div style="width:50%;  margin:auto;">
+       <h2 class="centrar">Registrar</h2>
+        <p class="centrar">
+            Registrate en @Html.ActionLink("WikiWiki","Acerca","Home") y descubre nuevos contenidos cada 
+            d&iacute;a ven y disfruta de una nueva emoci&oacute;n que puedes compartir con los dem&aacute;s
+        </p>
+      <div style="width:100%; border-radius:5%; border: solid 1px black"> 
+        <div style="width: 90%; margin:auto; margin-top: 3%;">
+         <div class=" form-group">
+            <label>Nombre</label>
+            @Html.TextBoxFor(model => model.nombre, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.nombre)
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.apellido, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.apellido)
-                @Html.ValidationMessageFor(model => model.apellido)
-            </div>
+            <label>Apellido</label>
+            @Html.TextBoxFor(model => model.apellido, new { @class = "form-control"})
+            @Html.ValidationMessageFor(model => model.apellido)
+        </div>
+
+
+        <div class="form-group">
+            <label>Usuario</label>
+            @Html.TextBoxFor(model => model.usuario, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.usuario)
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.nacimiento, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.nacimiento)
-                @Html.ValidationMessageFor(model => model.nacimiento)
-            </div>
+            <label>Clave</label>
+            @Html.TextBoxFor(model => model.clave, new { @class = "form-control", type = "password" })
+            @Html.ValidationMessageFor(model => model.clave)
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.clave)
+            @Html.TextBoxFor(model => model.clave, new { @class = "form-control", type = "password", id="clave2" })
+            @Html.ValidationMessageFor(model => model.clave)
+        </div>*@
+
+        <div class="form-group">
+            <label>Correo electronico</label>
+            @Html.TextBoxFor(model => model.email, new { @class = "form-control", type = "email" })
+            @Html.ValidationMessageFor(model => model.email)
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.email, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.email)
-                @Html.ValidationMessageFor(model => model.email)
-            </div>
+            <label>Fecha de nacimiento</label>
+            @Html.TextBoxFor(model => model.nacimiento, new { @class="form-control date-picker"})
+            @Html.ValidationMessageFor(model => model.nacimiento)
+        </div>
+
+        <script type="text/javascript">
+            $(function () {
+                // This will make every element with the class "date-picker" into a DatePicker element
+                $('.date-picker').datepicker();
+            })
+        </script>
+
+        <div class="form-group">
+            <label>Direcci&oacute;n</label>
+            @Html.TextBoxFor(model => model.direccion, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.direccion)
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.direccion, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.direccion)
-                @Html.ValidationMessageFor(model => model.direccion)
-            </div>
+            <label>Ocupaci&oacute;n</label>
+            @Html.TextBoxFor(model => model.ocupacion, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.ocupacion)
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.ocupacion, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.ocupacion)
-                @Html.ValidationMessageFor(model => model.ocupacion)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.usuario, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.usuario)
-                @Html.ValidationMessageFor(model => model.usuario)
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.clave, new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.clave)
-                @Html.ValidationMessageFor(model => model.clave)
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
+        <div class="form-group centrar">
+            <div style="display:inline-block">
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
+            <div style="display:inline-block">
+                @Html.ActionLink("Cancelar", "Index", "Home", routeValues: null , htmlAttributes: new { @class = "btn btn-default" })
+            </div>
         </div>
+      </div>
+    </div>
     </div>
 }
-
-<div>
-    @Html.ActionLink("Cancelar", "Index", "Home")
-</div>

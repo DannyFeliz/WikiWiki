@@ -354,7 +354,7 @@ footer ul li a:link {
 
 #inpBuscar, #btnBuscar ,#btnLogin, #buscador{
     display: inline-block;
-    vertical-align: top;
+    /*vertical-align: top;*/
 }
 #buscador {
     margin-top: 20px;

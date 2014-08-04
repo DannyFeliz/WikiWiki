@@ -47,7 +47,8 @@
             {
                 <article id="ultimosPost" class="">
 
-                    <h2><a href="" style="font-size:15px">@item.titulo</a></h2>
+                    @Html.ActionLink(@item.titulo, "Informacion", new { id = @item.publicacion_id })
+                    @*<h2><a href="" style="font-size:15px">@item.titulo</a></h2>*@
 
                     <div id="divFecha">
                         <h5>@item.fecha_publicacion</h5>
@@ -68,7 +69,8 @@
             {
                 <article id="ultimosPost" class="">
 
-                    <h2><a href="" style="font-size:15px">@item.titulo</a></h2>
+                    @Html.ActionLink(@item.titulo, "Informacion", new { id = @item.publicacion_id })
+                    @*<h2><a href="" style="font-size:15px">@item.titulo</a></h2>*@
 
                     <div id="divFecha">
                         <h5>@item.fecha_publicacion</h5>
