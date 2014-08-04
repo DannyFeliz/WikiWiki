@@ -1,21 +1,36 @@
 ﻿<!DOCTYPE html>
-@{ Html.RenderPartial("~/Views/Shared/_Submenu.cshtml"); }
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Administracion</title>
+
+    <style>
+
+        .contenidoPagina {
+            width: 100%;
+            margin-left: 0;
+           
+        }
+
+    </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td colspan="2" align="center"><strong>Administraci&oacute;n</strong></td>
-        </tr>
-        <tr>
-            <td>@Html.ActionLink("Control de publicaciones","Index", "Aprovacion")</td>
-        </tr>
-        <tr>
-            <td>@Html.ActionLink("Administracion de usuarios", "Usuarios")</td>
-        </tr>
-    </table>
+    <section class="contenidoPagina">
+        <div class="alinear">
+            <table>
+                <tr>
+                    <td colspan="2" align="center"><strong>Administraci&oacute;n</strong></td>
+                </tr>
+                <tr>
+                    <td>@Html.ActionLink("Control de publicaciones", "Index", "Aprovacion")</td>
+                </tr>
+                <tr>
+                    <td>@Html.ActionLink("Administracion de usuarios", "Usuarios")</td>
+                </tr>
+            </table>
+        </div>
+       
+    </section>
 </body>
 </html>

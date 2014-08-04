@@ -5,10 +5,11 @@
 #derecha{
     position: relative;
     float: right;
-    right: -28px;
+    right: 5px;
     width: 21%;
    
     margin-top: 20px;
+    
     
 }
 
@@ -74,6 +75,8 @@ nav ul li a:link{
 .contenidoPagina {
     width: 75%;
     margin-left: 2%;
+    margin-bottom: 185px;
+    
     
 }
 #slider, aside{
@@ -118,7 +121,7 @@ nav ul li a:link{
     }
    
 #postVisitados {
-    width: 70%;
+   
 
 }
 #postVisitados article {
@@ -133,10 +136,14 @@ footer span {
     color: white;
 }
 footer {
+
     padding-top: 15px;
     background-color: #387AE8;
     margin-top: 5%;
-   height: 170px;
+    height: auto;
+    
+    
+
 }
     footer div {
         border-right: 2px white dotted;
@@ -238,14 +245,15 @@ footer ul li a:link {
    overflow:hidden;
    padding: 10px;
    border-radius: 10px;
+   width: 126.5%;
 }
 
 #infomacionPost {
         
     padding-bottom: 70px;
 }
-#contenedorPost {
-    
+#contenedorPost #listaPost{
+    width: 100%;
     
 }
 #submenu {
@@ -283,29 +291,44 @@ footer ul li a:link {
 }
 
 #tblAprobaciones{
-    border: solid 2px black;
-    margin-bottom: 10px;
+    border: 2px dashed #DAE2FF;
+    margin-bottom: 20px;
+    margin-right: 10px;
     width: 30%;
+    text-align: center;
+    
 }
     #tblAprobaciones tbody tr td{
         padding: 5px;
     }
 #imgUsuario {
-    width: 7%;
+    
+   
 }
 #imgUsuario img{
     width:100px; 
     height: 100px; 
+    margin:5px 5px 5px 0;
+    margin-left: 100%;
+    
+    
+
     
 }
 #imgUsuario, #tblAprobaciones {
     display: inline-block;
     vertical-align: top;
-    margin: 5px;
+    border-radius: 10px;
+    
     
 }
     #tblAprobaciones button {
         margin: 5px;
+    }
+    #tblAprobaciones tbody {
+       
+        
+        border-top: 2px dashed #DAE2FF;
     }
 #linkRechazado {
     
@@ -324,3 +347,29 @@ footer ul li a:link {
     #acercaNosotros a {
         text-decoration:none;
     }
+#inpBuscar {
+    height: 20px;
+    width: 60%;
+}
+
+#inpBuscar, #btnBuscar ,#btnLogin, #buscador{
+    display: inline-block;
+    vertical-align: top;
+}
+#buscador {
+    margin-top: 20px;
+}
+.separador {
+    font-size: 18px;
+    margin-left: 5px; 
+    margin-right: 5px;
+    
+}
+#botonesCabeceras {
+    text-align: right;
+    margin: 10px;
+    margin-right: 43px;
+}
+.alinear {
+    margin-left: 4%;
+}

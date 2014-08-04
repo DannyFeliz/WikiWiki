@@ -44,10 +44,7 @@
 
     </header>
    
-    <section class="contenidoPagina">
-
-    </section>
-     
+ 
        <section id="derecha">
 
             <aside>
@@ -76,9 +73,12 @@
     </section>
 
     <div id="body">
-        @RenderSection("featured", required: false)
-        <section class="content-wrapper main-content clear-fix">
-            @RenderBody()
+        <section class="contenidoPagina">
+
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
         </section>
     </div>
     @RenderSection("scripts", required: false)

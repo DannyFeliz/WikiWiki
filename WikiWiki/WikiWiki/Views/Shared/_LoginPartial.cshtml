@@ -1,14 +1,15 @@
-﻿<div class="text-right" style="margin-top:3%">
-    <div style="display:inline-block;">
+﻿<div id="botonesCabeceras">
+    <div id="buscador">
         <form method="get" action="publicaciones">
-            <input type="search" placeholder="Buscar" class="" name="busqueda" />
-            <input type="submit" class="btn btn-default" value="Buscar" />
+            <input type="search" placeholder="Buscar" class="form-control" id="inpBuscar" name="busqueda" />
+            <input type="submit" class="btn btn-default" id="btnBuscar"  value="Buscar" />
+          
         </form>
     </div> 
 
-    <span> | </span>
+    
 
-    <div style="display:inline-block;">
+    <div id="btnLogin">
         @if (Request.IsAuthenticated)
         {
            
@@ -17,6 +18,7 @@
                     ¡Hola, @User.Identity.Name @*@Html.ActionLink(User.Identity.Name, "Manage", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Administrar" })*@!
                 </text>
             </div>
+            <span class="separador">|</span>
             @Html.ActionLink("Publicar", "Create", "Home", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "btn btn-default" })
             <div style="display:inline-block">
                 <text>
