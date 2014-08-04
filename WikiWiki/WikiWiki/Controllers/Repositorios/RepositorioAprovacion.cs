@@ -60,6 +60,8 @@ namespace Blog.Controllers.Repositorios
 
             // Update aplicaciones
             db.Entry(pendiente).State = EntityState.Modified;
+
+            db.SaveChanges();
         }
 
         public List<Estado> estados()

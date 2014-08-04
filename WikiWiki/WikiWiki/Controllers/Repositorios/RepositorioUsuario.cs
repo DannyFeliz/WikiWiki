@@ -75,7 +75,7 @@ namespace Blog.Controllers.Repositorios
             Usuario detalle = null;
 
             var user = db.Userios.Join(db.Registros, u => u.registro_id, r => r.registro_id, (u, r) => new { usuario_id = u.usuario_id, usuario1 = u.usuario1, nombreCompleto = r.nombre + " " + r.apellido, direccion = r.direccion, ocupacion = r.ocupacion, nacimiento = r.nacimiento, email = u.email, foto = u.foto, estado = u.estado })
-                .Join(db.Roles_de_usuario, u => u.usuario_id, r => r.rol_id, (u, r) => new { usuario_id = u.usuario_id, usuario1 = u.usuario1, nombreCompleto = u.nombreCompleto, direccion = u.direccion, ocupacion = u.ocupacion, nacimiento = u.nacimiento, email = u.email, rol_id = r.rol_id, foto = u.foto, estado = u.estado })
+                .Join(db.Roles_de_usuario, u => u.usuario_id, r => r.usuario_id, (u, r) => new { usuario_id = u.usuario_id, usuario1 = u.usuario1, nombreCompleto = u.nombreCompleto, direccion = u.direccion, ocupacion = u.ocupacion, nacimiento = u.nacimiento, email = u.email, rol_id = r.rol_id, foto = u.foto, estado = u.estado })
                 .Join(db.Roles, u => u.rol_id, r => r.rol_id, (u, r) => new { usuario_id = u.usuario_id, usuario1 = u.usuario1, nombreCompleto = u.nombreCompleto, direccion = u.direccion, ocupacion = u.ocupacion, nacimiento = u.nacimiento, email = u.email, rol_id = r.rol_id, rol = r.tipo, foto = u.foto, estado = u.estado })
                 .Where(u => u.usuario_id == id);
 

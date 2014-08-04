@@ -37,11 +37,18 @@ namespace Blog.Controllers
            return RedirectToAction("Index", "Aprovacion");
         }
 
-        // Aprovar
-        public ActionResult Rechazar(int id = 0, string motivos = "")
+        // Rechazar publicaciones
+        public ActionResult Rechazar(int id = 0, int estado = 0, string motivo = "")
         {
 
-            return RedirectToAction("Index","Aprovacion");
+            int usuario = repositorioUsuario.getIdUsuario(User.Identity.Name);
+
+            if (id != 0 && usuario != 0 && estado != 0)
+            {
+                repositorio.rechazar(id, estado, usuario, motivo);
+            }
+
+            return RedirectToAction("Index", "Aprovacion");
         }
     }
 }
