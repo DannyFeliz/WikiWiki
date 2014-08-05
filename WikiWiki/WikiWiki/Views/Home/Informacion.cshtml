@@ -4,26 +4,98 @@
     ViewBag.Title = "Informacion";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
 
-<h2>Informacion</h2>
+    .contenidoPagina {
+        border: 1px solid #dbdbdb;
+        border-radius: 10px;
 
-<div>
+    }
     
+</style>
+    <div id="informacionDetalle">
+
+
     <div>
 
-        <h2><a href="">@Model.titulo</a></h2>
+        <div>
 
-        <div id="divFecha">
-            <h5>@Model.fecha_publicacion</h5>
+            <h2>@Model.titulo</h2>
 
-        </div>
+            <div id="divFecha">
+                <h5><span>Categoría -> </span> @Model.categoria_id |  Autor: <a href="">@Model.usuario_id</a> | @Model.fecha_publicacion | Visitas: 0</h5>
 
-        <div id="infomacionPost">
-            @Html.Raw(Model.informacion)
-            <hr />
+            </div>
+
+            <div id="infomacionPost">
+                @Html.Raw(Model.informacion)
+
+            </div>
+
+            <div id="divFuente">
+                Fuente: @Html.Raw(Model.fuente_de_informacion)
+            </div>
+            
         </div>
     </div>
+
+
+
+
+
+
+
+    <div class="botonesCompartir">
+        <h4>Comparte esto con tus amigos en las redes sociales</h4>
+
+        <!-- Facebook compartir footer -->
+        <!-- Inserta esta etiqueta donde quieras que aparezca Botón Compartir. -->
+        <div class="fb-like" data-href="http://localhost:53988/Home/Acerca" data-width="26" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+
+        <!-- Twitter compartir footer -->
+        <!-- Inserta esta etiqueta donde quieras que aparezca Botón Compartir. -->
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="DanyFelz" data-lang="es">Twittear</a>
+
+        <!-- Google compartir footer -->
+        <!-- Inserta esta etiqueta donde quieras que aparezca Botón Compartir. -->
+        <div id="btnGoogle"><div class="g-plus" data-action="share"></div></div>
+    </div>
+
+    <hr />
+
+
+    <!-- CARGA LA API DE TWITTER-->
+    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+    <!--FIN CARGA LA API DE TWITTER-->
+    <!-- CARGA LA API DE FACEBOOK-->
+
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!--FIN CARGA LA API DE FACEBOOK-->
+    <!-- CARGA LA API DE GOOGLE-->
+    <!-- Inserta esta etiqueta después de la última etiqueta de compartir. -->
+    <script type="text/javascript">
+        window.___gcfg = { lang: 'es' };
+
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <!-- FIN LA API DE GOOGLE-->
+
+    <p>
+        @Html.ActionLink("Volver", "publicaciones")
+     
+    </p>
+
 </div>
-<p>
-    @Html.ActionLink("Volver", "publicaciones")
-</p>

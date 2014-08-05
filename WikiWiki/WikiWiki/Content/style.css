@@ -1,6 +1,6 @@
 ﻿body {  
     
-
+    background-color: rgb(240,238,238);
 }
 #derecha{
     position: relative;
@@ -15,17 +15,31 @@
 
 #divFecha 
 {
+  
     color: gray;  
-    border-bottom: dashed 2px #F0F0F0; 
+    border-top: dashed 1px #eee; 
+    border-bottom: dashed 1px #eee; 
+    margin-bottom: 15px;
 }
 #divFuente 
 {   
+
     color: gray;    
-    margin-bottom: 30px;
+    
     padding: 5px;
+    font-style: italic;
+    border-top: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
     /*-webkit-transform: translate(12px,-20px);*/
 }
-
+#fuentePublicacion {
+     color: gray;    
+    
+    padding: 5px;
+    font-style: italic;
+    
+    
+}
 nav{
     background-color: #387AE8;
     width: 100%;
@@ -76,6 +90,7 @@ nav ul li a:link{
     width: 75%;
     margin-left: 2%;
     margin-bottom: 185px;
+    background-color: white;
     
     
 }
@@ -90,6 +105,7 @@ nav ul li a:link{
     
 }
 #redesSociales {
+    background-color: white;
    border: 1px solid #DAE2FF;
    border-radius: 10px;
    margin-right: 32px;
@@ -116,7 +132,7 @@ nav ul li a:link{
     padding-left: 5px;
 }   
     #postReciente article #divFecha {
-    border-bottom: 0;
+    
     
     }
    
@@ -192,6 +208,7 @@ footer ul li a:link {
     text-decoration: none;
 }
 #categoria {
+    background-color: white;
     margin-right: 32px;
     margin-bottom: 5px;
      border: 1px solid #DAE2FF;
@@ -206,11 +223,14 @@ footer ul li a:link {
 }
 .submenu {
     margin-top: -10px;
+    margin-top: 5px;
 }
 .submenu ul{
+
     -webkit-transform: translateY(-10px);
     margin: 0;
     padding: 0;
+
     list-style: none; 
     background-color: #1656C0;
 
@@ -250,10 +270,12 @@ footer ul li a:link {
 
 #infomacionPost {
         
-    padding-bottom: 70px;
+    padding-bottom: 5px;
 }
+
 #contenedorPost #listaPost{
     width: 100%;
+    
     
 }
 #submenu {
@@ -265,7 +287,7 @@ footer ul li a:link {
     font-weight: bold;
 }
 .informacionPost {
-    margin: 25px;
+    
 }
 .fuente {
     margin: 25px;
@@ -373,3 +395,56 @@ footer ul li a:link {
 .alinear {
     margin-left: 4%;
 }
+/*Botones sociales de compartir*/
+.botonesCompartir h4{
+  color: gray;
+}
+.fb-like, .twitter-share-button, #btnGoogle {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.fb-like {
+   margin-right: 5px;
+    margin-top: 5px;
+    
+}
+.twitter-share-button {
+ 
+    margin-top: 5px;
+}
+.g-plus {
+   
+   
+    
+}
+.botonesCompartir #btnGoogle {
+    margin-top: 5px;
+    
+   
+}
+#btnGoogle {
+    margin-left: -30px;
+}
+#verMas {
+    margin-bottom: 15px;
+}
+#detallesPost{
+   
+    margin: 5px;
+   
+   
+}
+    #detallesPost h2 {
+        text-align: center;
+        font-weight: bold;
+    }
+#informacionDetalle {
+        margin: 25px;
+    }
+    #informacionDetalle h2 {
+        text-align: center;
+        font-weight: bold;
+        
+    }

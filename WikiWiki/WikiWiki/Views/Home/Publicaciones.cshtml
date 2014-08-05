@@ -7,7 +7,15 @@
         background-color: #2F67C4;
         box-shadow: inset 0px -8px 0px 0px #1D547A;
     }
-</style>
+
+     .submenu {
+        margin-top: 5px;
+    }
+    .contenidoPagina #linea {
+        
+    }
+    </style >
+
 <div class="submenu">
     <ul>
         <li><a id="linksPublicaciones" href="#">Más Recientes</a></li>
@@ -19,6 +27,7 @@
 
 
 <div class="contenidoPagina">
+    <span id="linea"></span>
     <h2>Publicaciones Más Recientes</h2>
     <div id="contenedorPost">
 
@@ -39,13 +48,14 @@
                     <hr />
                 </div>
             </div>
-            @Html.ActionLink("Ver mas", "Informacion", new { id = @item.publicacion_id });
-            <div id="divFuente">
+            <div id="fuentePublicacion">
                 <b>Fuente:  </b> :@item.fuente_de_informacion
             </div>
-
+               @Html.ActionLink("Ver más...", "Informacion", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default" });
+           
+             
         }
-
+       
     </div>
-
+        
 </div>
