@@ -21,6 +21,7 @@
         <p class="centrar">
             Registrate en @Html.ActionLink("WikiWiki","Acerca","Home") y descubre nuevos contenidos cada 
             d&iacute;a ven y disfruta de una nueva emoci&oacute;n que puedes compartir con los dem&aacute;s
+            solo tienes que completar nuestro registro en 2 sencillos pasos.
         </p>
       <div style="width:100%; border-radius:5%; border: solid 1px black"> 
         <div style="width: 90%; margin:auto; margin-top: 3%;">
@@ -70,25 +71,42 @@
         <script type="text/javascript">
             $(function () {
                 // This will make every element with the class "date-picker" into a DatePicker element
-                $('.date-picker').datepicker();
+                $('.date-picker').datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    yearRange: "1870:2014",
+                    changeMonth: true,
+                    changeYear: true,
+                    numberOfMonths: 1,
+                    dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+                    monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
+                        'Junio', 'Julio', 'Agosto', 'Septiembre',
+                        'Octubre', 'Noviembre', 'Diciembre'],
+                    monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr',
+                        'May', 'Jun', 'Jul', 'Ago',
+                        'Sep', 'Oct', 'Nov', 'Dic']  
+                });
             })
         </script>
 
         <div class="form-group">
-            <label>Direcci&oacute;n</label>
-            @Html.TextBoxFor(model => model.direccion, new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.direccion)
+            <label>Sexo</label>
+
+            <label>Femenino @Html.RadioButtonFor(model => model.direccion, "femenino")</label>
+            <label>Masculino @Html.RadioButtonFor(model => model.direccion, "masculino")</label>
+            @*Html.HiddenFor(model => model.direccion, htmlAttributes: new { id="direccion" })*@
+            @*Html.TextBoxFor(model => model.direccion, new { @class = "form-control" })*@
+            tml.ValidationMessageFor(model => model.direccion)
         </div>
 
-        <div class="form-group">
+        @*<div class="form-group">
             <label>Ocupaci&oacute;n</label>
             @Html.TextBoxFor(model => model.ocupacion, new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.ocupacion)
-        </div>
+        </div>*@
 
         <div class="form-group centrar">
             <div style="display:inline-block">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Siguiente paso" class="btn btn-default" />
             </div>
             <div style="display:inline-block">
                 @Html.ActionLink("Cancelar", "Index", "Home", routeValues: null , htmlAttributes: new { @class = "btn btn-default" })
@@ -96,5 +114,5 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
 }

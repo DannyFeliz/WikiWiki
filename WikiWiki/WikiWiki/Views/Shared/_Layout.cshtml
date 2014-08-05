@@ -41,6 +41,12 @@
                 <li id="publicaciones"><a href="@Url.Action("publicaciones","Home")">Publicaciones</a></li>
                 <li id="acercanosotros"><a href="@Url.Action("Acerca","Home")">Acerca de nosotros</a></li>
                 <li id="contacto"><a href="@Url.Action("Contact","Home")">Contactos</a></li>
+                @{
+                    Blog.Controllers.Repositorios.RepositorioUsuario repositorioUsuario = new Blog.Controllers.Repositorios.RepositorioUsuario();
+                    if (repositorioUsuario.getRolUsuario(User.Identity.Name) == "Administrador") { 
+                        <li id="contacto"><a href="@Url.Action("Index","Administracion")">Administrar</a></li>
+                    }
+                }
 
             </ul>
         </nav>
@@ -78,6 +84,14 @@
                         {
                             <li><a href="@Url.Action("publicaciones")?categoria=@item.categoria">@item.categoria</a></li>
                         }*@
+                        @{
+                            WikiWiki.Models.UsersContext db = new WikiWiki.Models.UsersContext();
+                            var array = db.categoria.ToArray(); 
+                            foreach (var @item in array)
+                            {
+                                <li><a href="@Url.Action("publicaciones")?categoria= @item.categoria">@item.categoria</a></li>
+                            }
+                        }
 
                     </ul>
                 </div>

@@ -12,8 +12,8 @@
         @*<p>
             @Html.ActionLink("Crear nueva categoria", "Categoria", "Administracion", routeValues: null , htmlAttributes: new { @class = "btn btn-default"})
         </p>*@
-
-        <button class="btn btn-success center-block" data-toggle="modal" data-target="#manejoCategoria" onclick="crearCategoria();">Crear nueva categoria</button>
+        <a href="@Url.Action("Index", "Administracion")" class="btn btn-success">Menu de administracion</a>
+        <button class="btn btn-success centrar"  data-toggle="modal" data-target="#manejoCategoria" onclick="crearCategoria();">Crear nueva categoria</button>
 
         <br>
         <br>
