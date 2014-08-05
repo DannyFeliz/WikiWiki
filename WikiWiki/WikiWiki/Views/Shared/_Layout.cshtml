@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@*@model IEnumerable<Blog.Models.Categoria>*@
+
+
+<!DOCTYPE html>
 <html lang="es">
     <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -31,7 +34,7 @@
             <input type="search" placeholder="Buscar" class="" name="busqueda" />
             <input type="submit" class="btn btn-default" value="Buscar" />
         </form>*@
-
+       
         <nav>
             <ul>
                 <li id="inicio"><a href="@Url.Action("inicio","Home")">Inicio</a></li>
@@ -62,21 +65,19 @@
                 <div id="redesSociales">
                     <h3 class="titulos">Redes sociales</h3>
                     <div>
-                        <a href="#"><img src="~/Images/icons/facebook.png" /></a>
-                        <a href="#"><img src="~/Images/icons/twitter.png" /></a>
-                        <a href="#"><img src="~/Images/icons/google.png" /></a>
+                        <a href="https://www.facebook.com/InfoWikiWiki"><img src="~/Images/icons/facebook.png" /></a>
+                        <a href="https://twitter.com/InfoWikiWiki"><img src="~/Images/icons/twitter.png" /></a>
+                        <a href="https://plus.google.com/u/2/117288809903314805209/posts?hl=es_419"><img src="~/Images/icons/google.png" /></a>
                     </div>
                 </div>
                 <div id="categoria">
-                    <h3 class="titulos">Categoría</h3>
+                    <h3 class="titulos">Categorías</h3>
                     <ul>
-                        <a href="#"><li>Deporte</li></a></a>
-                        <a href="#"><li>Economía</li></a>
-                        <a href="#"><li>Entretenimiento</li></a>
-                        <a href="#"><li>Internacionales</li></a>
-                        <a href="#"><li>Moda</li></a>
-                        <a href="#"><li>Religión</li></a>
-                        <a href="#"><li>Tecnología</li></a>
+                        @* Por alguna razón dejó de funcionar esto *@
+                        @*@foreach (var @item in Model)
+                        {
+                            <li><a href="@Url.Action("publicaciones")?categoria=@item.categoria">@item.categoria</a></li>
+                        }*@
 
                     </ul>
                 </div>

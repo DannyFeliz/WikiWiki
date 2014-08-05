@@ -393,7 +393,13 @@ footer ul li a:link {
     /*vertical-align: top;*/
 }
 #buscador {
-    margin-top: 20px;
+   
+    
+}
+#botonesHeader {
+    display: inline-block;
+    position: relative;
+    top: 40px;
 }
 .separador {
     font-size: 18px;
@@ -462,3 +468,28 @@ footer ul li a:link {
         font-weight: bold;
         
     }
+#verMas {
+    margin-bottom: 50px;
+}
+#logo {
+    display: inline-block;
+   margin-right: 50%;
+}
+
+/*Contactos*/
+#contInfo figure img{    
+    border-radius: 50%;
+
+    border: 5px solid #428bca;
+     width: 20%;
+     -webkit-transition: all 0.50s ease;
+     
+}
+    #contInfo figure img:hover {
+        -webkit-transform: scale(1.1,1.1) rotate(20deg);
+         
+}
+#contInfo figure figcaption {
+    text-align: center;
+    background-color: red;
+}

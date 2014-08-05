@@ -25,45 +25,43 @@ namespace Blog.Controllers
         //
         // GET: /BlogPost/
 
-        public ActionResult Publicaciones(String busqueda = null)
+        public ActionResult Publicaciones(String busqueda = null, int categoria = 0)
         {
-            //p => p.estado_id == 2 &&
-            //(p => busqueda == null || p.titulo.StartsWith(busqueda) || p.t)
-            if (busqueda == null)
-            {
-                var model = db.publicaciones
-               .Where(p => p.estado_id == 2)
-              .OrderBy(r => r.fecha_publicacion)
-              .Take(20).ToList();
-                return View(model);
-            }
-            else if (busqueda != null)
-            {
-                var model = db.publicaciones
-                    .Where(p => p.estado_id == 2 && p.titulo.Contains(busqueda) || p.informacion.Contains(busqueda))
-                   .OrderBy(r => r.fecha_publicacion)
-                   .Take(20).ToList();
-                if (model.Count() > 0)
+           
+                if (busqueda == null || categoria == 0)
                 {
+                    var model = db.publicaciones
+                   .Where(p => p.estado_id == 2)
+                  .OrderBy(r => r.fecha_publicacion)
+                  .Take(20).ToList();
+                    return View(model);
+                }
+                else if(busqueda != null){
+                    var model = db.publicaciones
+                        .Where(p => p.estado_id == 2 && p.titulo.Contains(busqueda) || p.informacion.Contains(busqueda))
+                       .OrderBy(r => r.fecha_publicacion)
+                       .Take(20).ToList();
+                
+                        return View(model);
+              
+                }
+                else if (categoria != null)
+                {
+                    var model = db.publicaciones
+                        .Where(p => p.categoria_id == categoria)
+                       .OrderBy(r => r.fecha_publicacion)
+                       .ToList();
                     return View(model);
                 }
                 else {
-                  
 
-                    return View(model);
+                    return null;
                 }
-
-            }
-            else {
-                var mensaje = String.Format("No se encontró ningun resultado");
-
-                ViewBag.Message = mensaje;
-
-                return View(mensaje);
-            }
 
         }
 
+
+      
         public ActionResult Acerca() {
 
             return View();
@@ -76,11 +74,9 @@ namespace Blog.Controllers
                 .Where(p => p.estado_id == 2)
                 .OrderByDescending(r => r.fecha_publicacion)
                 .Take(6).ToList();
-            
-            //            return View(db.BlogPosts.ToList());
+        
 
-            var texto = "Hola soy un texto";
-            texto.Substring(0, 5);
+           
             return View(model);
             
         }
