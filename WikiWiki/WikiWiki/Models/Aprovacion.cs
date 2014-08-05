@@ -22,7 +22,7 @@ namespace Blog.Models
         public int publicacion_id { get; set; }
         public string motivos { get; set; }
         [NotMapped]
-        public virtual string usuario { get; set; }
+        public virtual string usuarioA { get; set; }
         [NotMapped]
         public virtual string usuarioPublicacion { get; set; }
         [NotMapped]

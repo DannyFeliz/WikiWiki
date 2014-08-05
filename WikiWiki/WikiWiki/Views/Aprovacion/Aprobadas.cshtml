@@ -75,5 +75,5 @@
 }
 
 <div class="pageList" id="paginadoAprobacion" data-otf-target="#usuarios">
-    @Html.PagedListPager(Model, pagina => Url.Action("", new { pagina }))
+    @Html.PagedListPager(Model, pagina => Url.Action("Aprobadas", new { pagina }))
 </div>

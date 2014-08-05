@@ -101,7 +101,7 @@ namespace Blog.Controllers.Repositorios
                 .Join(db.Userios, d => d.usuario_id, u => u.usuario_id, (d, u) => new { usuario = u.usuario1, fecha_de_aprovacion = d.fecha_de_aprovacion, motivos = d.motivos, publicacion_id = d.publicacion_id })
                 .FirstOrDefault(p => p.publicacion_id == id);
 
-            Aprovacion detalle = new Aprovacion { usuario = r.usuario, motivos = r.motivos, fecha_de_aprovacion = r.fecha_de_aprovacion};
+            Aprovacion detalle = new Aprovacion { usuarioA = r.usuario, motivos = r.motivos, fecha_de_aprovacion = r.fecha_de_aprovacion};
            
             return detalle;
         }
