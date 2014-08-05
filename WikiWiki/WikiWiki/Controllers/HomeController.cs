@@ -131,13 +131,16 @@ namespace Blog.Controllers
                 /*blogpost.fecha_publicacion = DateTime.Now;
                 blogpost.direccion_ip = "localhost";
                 */
-                db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
-                db.SaveChanges();
+               
+                    db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
+                    db.SaveChanges();
+                
+                
 
                 //return Content("" + blogpost.Aprovacions + " " + blogpost.categoria + " " + blogpost.direccion_ip + " " + blogpost.estado_id + " " + blogpost.fecha_publicacion + " " + blogpost.fuente_de_informacion + " " + blogpost.informacion + " " + blogpost.publicacion_id + " " + blogpost.titulo +" " + blogpost.visitas + " " + blogpost.usuario_id);
 
                 //return Content("" + blogpost.usuario_id);
-                return RedirectToAction("Index");//Modificar esto
+                return RedirectToAction("publicaciones");
             }
 
             return View(blogpost);

@@ -8,10 +8,11 @@
         box-shadow: inset 0px -8px 0px 0px #1D547A;
     }
 
-     .submenu {
-        margin-top: 5px;
+    .submenu {
+        margin-top: -1px;
     }
-    .contenidoPagina #linea {
+    .contenidoPagina {
+       
         
     }
     </style >
@@ -34,8 +35,7 @@
         @foreach (var item in Model)
         {
             <div class="listaPost">
-
-                <h2><a href="">@item.titulo</a></h2>
+                <h2>@Html.ActionLink(@item.titulo, "Informacion", new { id = @item.publicacion_id })</h2>
 
                 <div id="divFecha">
                     <h5>@item.fecha_publicacion</h5>
