@@ -475,7 +475,7 @@ footer ul li a:link {
     display: inline-block;
    margin-right: 50%;
 }
-
+/* */
 /*Contactos*/
 #contInfo figure img{    
     border-radius: 50%;
@@ -491,5 +491,6 @@ footer ul li a:link {
 }
 #contInfo figure figcaption {
     text-align: center;
-    background-color: red;
+    background-color: red; 
+
 }
