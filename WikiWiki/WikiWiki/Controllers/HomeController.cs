@@ -11,6 +11,7 @@ using Blog.Filters;
 using Blog.Controllers.Repositorios;
 using System.Web.Security;
 using WikiWiki.Models;
+using WikiWiki.Controllers.Repositorios;
 
 namespace Blog.Controllers
 {
@@ -18,6 +19,8 @@ namespace Blog.Controllers
     public class HomeController : Controller
     {
         private UsersContext db = new UsersContext();
+        private RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
+        private RepositorioPublicacion repositorioPublicacion = new RepositorioPublicacion();
 
         //
         // GET: /BlogPost/
@@ -49,7 +52,6 @@ namespace Blog.Controllers
 
                     return View(model);
                 }
-                
 
             }
             else {
@@ -97,12 +99,8 @@ namespace Blog.Controllers
 
         public ActionResult Informacion(int id = 0)
         {
-            publicaciones blogpost = db.publicaciones.Find(id);
-            if (blogpost == null)
-            {
-                return HttpNotFound();
-            }
-            return View(blogpost);
+
+            return View(repositorioPublicacion.getPublicacion(id));
         }
 
         //
@@ -124,31 +122,32 @@ namespace Blog.Controllers
         // POST: /BlogPost/Create
 
         [HttpPost]
+        [RoleAttribute(Roles = "Administrador,Editor")]
         public ActionResult Create(publicaciones blogpost)
         {
             if (ModelState.IsValid)
             {
-                /*blogpost.fecha_publicacion = DateTime.Now;
-                blogpost.direccion_ip = "localhost";
-                */
-               
-                    db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
-                    db.SaveChanges();
+                db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
+                db.SaveChanges();
                 
-                
-
-                //return Content("" + blogpost.Aprovacions + " " + blogpost.categoria + " " + blogpost.direccion_ip + " " + blogpost.estado_id + " " + blogpost.fecha_publicacion + " " + blogpost.fuente_de_informacion + " " + blogpost.informacion + " " + blogpost.publicacion_id + " " + blogpost.titulo +" " + blogpost.visitas + " " + blogpost.usuario_id);
-
-                //return Content("" + blogpost.usuario_id);
                 return RedirectToAction("publicaciones");
             }
 
             return View(blogpost);
         }
 
+        // Obtener publicaciones de los propios usuarios
+        public ActionResult MisPublicaciones(int pagina = 1)
+        {
+            var id = repositorioUsuario.getIdUsuario(User.Identity.Name);
+            var publicaciones = repositorioPublicacion.getPublicacionesDelUsuario(id);
+
+            return View(publicaciones);
+        }
         //
         // GET: /BlogPost/Edit/5
 
+        [RoleAttribute(Roles = "Administrador,Editor")]
         public ActionResult Edit(int id = 0)
         {
             publicaciones blogpost = db.publicaciones.Find(id);
@@ -163,20 +162,21 @@ namespace Blog.Controllers
         // POST: /BlogPost/Edit/5
 
         [HttpPost]
+        [RoleAttribute(Roles = "Administrador,Editor")]
         public ActionResult Edit(publicaciones blogpost)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(blogpost).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                repositorioPublicacion.actualizacion(blogpost);
+
+                return RedirectToAction("MisPublicaciones");
             }
             return View(blogpost);
         }
 
         //
         // GET: /BlogPost/Delete/5
-
+        [RoleAttribute(Roles = "Administrador,Editor")]
         public ActionResult Delete(int id = 0)
         {
             publicaciones blogpost = db.publicaciones.Find(id);
@@ -190,13 +190,12 @@ namespace Blog.Controllers
         //
         // POST: /BlogPost/Delete/5
 
-        [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(int id)
+        [RoleAttribute(Roles = "Administrador,Editor")]
+        public ActionResult Eliminar(int id)
         {
-            publicaciones blogpost = db.publicaciones.Find(id);
-            db.publicaciones.Remove(blogpost);
-            db.SaveChanges();
-            return RedirectToAction("Index");//Modicar esto
+            repositorioPublicacion.eliminar(id);
+
+            return RedirectToAction("MisPublicaciones");
         }
 
         protected override void Dispose(bool disposing)

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Web.Mvc;
 
 namespace Blog.Models
@@ -31,6 +32,10 @@ namespace Blog.Models
         [Required]
         public string fuente_de_informacion { get; set; }
         public int categoria_id { get; set; }
+        [NotMapped]
+        public virtual string usuarioP { get; set; }
+        [NotMapped]
+        public virtual string categoriaP { get; set; }
 
         public virtual ICollection<Aprovacion> Aprovacions { get; set; }
         public virtual ICollection<Estado> Estado { get; set; }

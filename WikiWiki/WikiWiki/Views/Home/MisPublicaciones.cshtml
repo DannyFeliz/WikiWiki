@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Blog.Models.publicaciones>
+@{
+    ViewBag.Title = "Publicaciones";
+}
+<style>
+    #publicaciones {
+        background-color: #2F67C4;
+        box-shadow: inset 0px -8px 0px 0px #1D547A;
+    }
+
+    .submenu {
+        margin-top: -1px;
+    }
+    .contenidoPagina {
+       
+        
+    }
+    </style >
+
+<div class="submenu">
+    <ul>
+        <li><a id="linksPublicaciones" href="#">Más Recientes</a></li>
+        <span>|</span>
+        <li><a href="#">Más Más Visitados</a></li>
+    </ul>
+</div>
+
+
+
+<div class="contenidoPagina">
+    <span id="linea"></span>
+    <h2>Publicaciones Más Recientes</h2>
+    <div id="contenedorPost">
+
+        @foreach (var item in Model)
+        {
+            <div class="listaPost">
+                <h2>@Html.ActionLink(@item.titulo, "Informacion", new { id = @item.publicacion_id })</h2>
+
+                <div id="divFecha">
+                    <h5>@item.fecha_publicacion</h5>
+
+                </div>
+
+                <div id="infomacionPost">
+                    @Html.Raw(item.informacion)
+
+                    <hr />
+                </div>
+            </div>
+            <div id="fuentePublicacion">
+                <b>Fuente:  </b> :@item.fuente_de_informacion
+            </div>
+               @Html.ActionLink("Ver más...", "Informacion", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default" });
+               <span> </span>
+            @Html.ActionLink("Editar", "Edit", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default" });
+            <span> </span>
+            @Html.ActionLink("Eliminar", "Eliminar", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default", onclick = "if(confirm('Seguro que quiere eliminar esta publicacion?')){return true; }else{return false;};" });
+           
+             
+        }
+       
+    </div>
+        
+</div>
+
+<script>
+    $('#eliminar-post').attr("onclick","if(confirm('Seguro que quiere eliminar?'){return true;}else{return false;});");
+</script>
