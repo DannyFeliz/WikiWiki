@@ -3,16 +3,21 @@
     background-color: rgb(240,238,238);
 }
 #derecha{
-    position: relative;
-    float: right;
-    right: 5px;
-    width: 21%;
-   
-    margin-top: 20px;
     
+  
     
 }
 
+#body {
+    border: dashed 1px #eee;
+}
+    #body .contenidoPagina {
+        width: 75%;
+    }
+    #body #derecha {
+        margin-left: 10px;
+        width: 20%;
+    } 
 #divFecha 
 {
   
@@ -85,12 +90,17 @@ nav ul li a:link{
 #btn-inicioSesion a:link {
     text-decoration: none; 
 }
-
+.contenidoPagina, #derecha {
+    display: inline-block;
+    vertical-align: top;
+}
 .contenidoPagina {
+
     width: 75%;
     margin-left: 2%;
-    margin-bottom: 185px;
+    margin-bottom: 100px;
     background-color: white;
+   
     
     
 }
@@ -101,16 +111,17 @@ nav ul li a:link{
 
 #slider {
    
-   margin-left: 40px;
+
     
 }
 #redesSociales {
     background-color: white;
    border: 1px solid #DAE2FF;
    border-radius: 10px;
-   margin-right: 32px;
+  
    margin-bottom: 10px;
-  padding-right: 10px;
+  padding-right: 31px;
+  
 }
 #redesSociales img {
         
@@ -147,7 +158,7 @@ nav ul li a:link{
     border: solid 1px black;
 }
 footer span {
-    margin-top: 40px;
+    
     font-weight: bold;
     color: white;
 }
@@ -155,10 +166,7 @@ footer {
 
     padding-top: 15px;
     background-color: #387AE8;
-    margin-top: 5%;
-    height: auto;
-    
-    
+    margin-top: 50px;
 
 }
     footer div {
@@ -209,7 +217,7 @@ footer ul li a:link {
 }
 #categoria {
     background-color: white;
-    margin-right: 32px;
+    
     margin-bottom: 5px;
      border: 1px solid #DAE2FF;
      border-radius: 10px;

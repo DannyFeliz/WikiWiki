@@ -45,7 +45,18 @@
     </header>
    
  
-       <section id="derecha">
+       
+
+    <div id="body">
+        <section class="contenidoPagina">
+
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </section>
+
+        <section id="derecha">
 
             <aside>
                 <div id="redesSociales">
@@ -70,15 +81,6 @@
                     </ul>
                 </div>
             </aside>
-    </section>
-
-    <div id="body">
-        <section class="contenidoPagina">
-
-            @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix">
-                @RenderBody()
-            </section>
         </section>
     </div>
     @RenderSection("scripts", required: false)
