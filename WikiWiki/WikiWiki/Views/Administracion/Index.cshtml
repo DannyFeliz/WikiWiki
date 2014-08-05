@@ -1,27 +1,37 @@
 ﻿
     <style>
 
-        .alinear {
-            background-color: darkblue;
-            border-radius: 10px;
-            border-bottom: dashed 1px #eee;
+        .contenidoPagina {
+            
         }
-
+        .alinear {
+            margin: 0 auto;
+            
+            margin-left: 50%;
+        }
+        ul li{
+            list-style: none;
+            font-size: 21px;
+            margin: 0;
+            
+        }
+        img {
+            margin-right: 2px;
+            margin-bottom: 2px;
+            
+        }
     </style>
 
     <section class="contenidoPagina">
-        <div class="alinear">
-            <table>
-                <tr>
-                    <td colspan="2" align="center"><strong>Administraci&oacute;n</strong></td>
-                </tr>
-                <tr>
-                    <td>@Html.ActionLink("Control de publicaciones", "Index", "Aprovacion")</td>
-                </tr>
-                <tr>
-                    <td>@Html.ActionLink("Administracion de usuarios", "Usuarios")</td>
-                </tr>
-            </table>
-        </div>
+       
+        <section class="alinear">
+            <h1>Área Administrativa</h1>
+            
+            <ul>
+                <li><img src="~/Images/orderedList1.png" /> @Html.ActionLink("Administracion de usuarios", "Usuarios")</li>
+                <li><img src="~/Images/orderedList2.png" /> @Html.ActionLink("Control de publicaciones", "Index", "Aprovacion")</li>
+
+            </ul>
+        </section>
        
     </section>

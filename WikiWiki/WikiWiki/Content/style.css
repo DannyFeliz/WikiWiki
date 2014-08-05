@@ -229,8 +229,9 @@ footer ul li a:link {
    padding-bottom: 5px;
    color:#428bca ;
 }
+
 .submenu {
-    margin-top: -10px;
+    
     margin-top: 5px;
 }
 .submenu ul{
@@ -325,7 +326,8 @@ footer ul li a:link {
     margin-bottom: 20px;
     margin-right: 10px;
     width: 30%;
-    text-align: center;
+    text-align: left;
+    
     
 }
     #tblAprobaciones tbody tr td{
@@ -343,6 +345,10 @@ footer ul li a:link {
     
     
 
+    
+}
+#tblAprobaciones {
+    
     
 }
 #imgUsuario, #tblAprobaciones {

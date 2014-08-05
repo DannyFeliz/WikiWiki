@@ -3,30 +3,35 @@
 @{
     ViewBag.Title = "Procesar";
 }
+<style>
+    #alinear {
+        margin: 20px;
+    }
+    #aprobar {
+        margin-left:42%;
+    }
+    #boxNegar {
+       
+    }
+   
+</style>
+<div id="alinear">
+    <h1 align="center">Administracion de publicaciones</h1>
 
-<h2>Administracion de publicaciones</h2>
+    <hr />
+    <h3 align="center">@Html.DisplayFor(model => model.titulo)</h3>
+    
+    <div>@Html.Raw(Model.informacion)</div>
 
-<table width="820" cellpadding="0" cellspacing="0">
-    <tr>
-        <td colspan="5" align="center">@Html.DisplayFor(model => model.titulo)</td>
-    </tr>
-    <tr>
-        <td colspan="5">@Html.Raw(Model.informacion)</td>
-    </tr>
-    <tr>
-        <td width="120">Publicado por: </td>
-        <td width="60">@Html.DisplayFor(model => model.usuario) </td>
-        <td colspan="2" align="center">Fecha de publicacion: </td>
-        <td width="350">  @Html.DisplayFor(model => model.fecha_publicacion) </td>
-    </tr>
-    <tr>
-        <td colspan="5" align="center">
-            <button class="btn btn-primary" onclick="if(confirm('Deseas procesar?')){location.href='@Url.Action("Aprovar", "Aprovacion", new { id = Model.publicacion_id })';}">Aprovar</button> 
-            <button class="btn btn-primary" id="boxNegar" onclick="denegado(@Model.publicacion_id);">Rechazar</button>
-        </td>
-    </tr>
-</table>
+    <hr />
+    <p>Publicado por: @Html.DisplayFor(model => model.usuario) </p>
 
+    <p>Fecha de publicacion: @Html.DisplayFor(model => model.fecha_publicacion)</p>
+
+    <button class="btn btn-primary" id="aprobar" onclick="if(confirm('Deseas procesar?')){location.href='@Url.Action("Aprovar", "Aprovacion", new { id = Model.publicacion_id })';}">Aprovar</button> |
+    <button class="btn btn-primary" id="boxNegar" onclick="denegado(@Model.publicacion_id);">Rechazar</button>
+
+</div>
 <div class="modal fade" id="ediciones-denegar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">

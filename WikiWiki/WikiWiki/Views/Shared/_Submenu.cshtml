@@ -1,7 +1,30 @@
 ﻿
 @if (Request.IsAuthenticated)
 {
-    <div class="submenu">
+    <style>
+        .submenuAdmin {
+            margin-top: -1px;
+        }
+
+            .submenuAdmin ul {
+                -webkit-transform: translateY(-10px);
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                background-color: #1656C0;
+            }
+
+            .submenuAdmin li {
+                display: inline-block;
+            }
+
+            .submenuAdmin ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+    </style>
+    <div class="submenuAdmin">
     <ul class="listaSubmenu">
         <li><a href="@Url.Action("Index","Aprovacion")">Publicaciones por aprobar</a></li>
         <span>|</span>
