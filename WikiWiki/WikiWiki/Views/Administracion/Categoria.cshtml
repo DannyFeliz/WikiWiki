@@ -2,7 +2,7 @@
 
 @{
     ViewBag.Title = "Categoria";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "";
 }
 
 
@@ -11,10 +11,9 @@
 {
     @Html.AntiForgeryToken()
     
-    <div style="width: 40%; border-radius:5%; margin:auto; border: solid 1px black ">
+    <div style="width: 70%; border-radius:5%; margin:auto;">
         <div style="width: 90%; margin: auto">
             @Html.ValidationSummary(true)
-            <h2 class="centrar">Categoria</h2>
 
             <div class="form-group centrar">
                 @Html.TextBoxFor(model => model.categoria, htmlAttributes: new { @class="form-control"})
@@ -24,9 +23,10 @@
             <div class="form-group centrar">
                 <div>
                     <input type="submit" value="Crear" class="btn btn-default" />
-                    @Html.ActionLink("Cancelar", "ListaCategoria", "Administracion",routeValues: null,  htmlAttributes: new { @class = "btn btn-default" })
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                 </div>
             </div>
+
         </div>
     </div>
 }

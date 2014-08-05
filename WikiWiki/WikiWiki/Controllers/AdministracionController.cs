@@ -87,21 +87,25 @@ namespace Blog.Controllers
             return View(db.categoria.ToList());
         }
 
-        //[HttpPost]
-        //public ActionResult Categoria(Categoria datosCategoria)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        db.categoria.Add(new Categoria
-        //        {
-        //            categoria = datosCategoria.categoria
-        //        });
-        //        db.SaveChanges();
-        //        return View();
-        //    }
-        //    return View();
-        //}
+        public ActionResult EditarCategoria(int id = 0) { 
+            var model = db.categoria.Find(id);
+            return View(model);
+        }
 
+        [HttpPost]
+        public ActionResult EditarCategoria(int id = 0, string categoria = null)
+        {
+            db.categoria.Find(id).categoria = categoria;
+            db.SaveChanges();
+            return RedirectToAction("ListaCategoria");
+        }
+
+        public ActionResult EliminarCategoria(int id = 0)
+        {
+            db.categoria.Remove(db.categoria.Find(id));
+            db.SaveChanges();
+            return RedirectToAction("ListaCategoria", "Administracion");
+        }
 
     }
 }

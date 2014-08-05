@@ -1,0 +1,26 @@
+﻿@model Blog.Models.Categoria
+
+@{
+    ViewBag.Title = "EditarCategoria";
+    Layout = "";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div style="width:50%; margin: auto">
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.id)
+
+        <div class="form-group">
+            @Html.TextBoxFor(model => model.categoria, htmlAttributes: new { @class="form-control"})
+            @Html.ValidationMessageFor(model => model.categoria)
+        </div>
+
+        <div class="form-group centrar">
+            <input type="submit" value="Save" class="btn btn-default" />
+            <button type="button" class="btn btn-default"  data-dismiss="modal">Cancelar</button>
+        </div>
+    </div>
+}
