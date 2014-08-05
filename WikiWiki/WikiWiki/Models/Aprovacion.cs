@@ -16,11 +16,13 @@ namespace Blog.Models
         [Key]
         public int aprovacion_id { get; set; }
         public int usuario_id { get; set; }
+        [Display(Name="Fecha de rechazo")]
         public DateTime fecha_de_aprovacion { get; set; }
         public int estado_id { get; set; }
         public int publicacion_id { get; set; }
         public string motivos { get; set; }
-
+        [NotMapped]
+        public virtual string usuario { get; set; }
         [NotMapped]
         public virtual string usuarioPublicacion { get; set; }
         [NotMapped]

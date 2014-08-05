@@ -1,0 +1,103 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Blog.Models.Por_aprovar>
+
+@{ Html.RenderPartial("~/Views/Shared/_Submenu.cshtml"); }
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    .contenidoPagina{
+        width: 100%;
+        text-align: center;
+    }
+    #paginadoAprobacion {
+        text-align: left;
+        margin-left: 100px;
+    }
+</style>
+
+<h2>Lista de publicaciones rechazadas</h2>
+@foreach (var item in Model)
+{
+    
+    <table id="tblAprobaciones">
+
+        <thead>
+            <tr>
+
+                <!-- Esto aquí se debe cambiar para que sea dinamico-->
+                <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
+                @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
+                <td id="imgUsuario"><img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")' /></td>
+                
+            </tr>
+            
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.First().titulo):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.titulo)</td>
+
+            </tr>
+
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.First().categoria):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.categoria)</td>
+            </tr>
+
+            <tr>
+                <td width="200">@Html.DisplayNameFor(model => model.First().fecha_publicacion):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.fecha_publicacion)</td>
+            </tr>
+
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.First().usuario):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.usuario)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.First().estado):</td>
+                <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button class="btn btn-default" onclick="location.href = '@Url.Action("Procesar", "Aprovacion", new { id = item.publicacion_id })';">Procesar nuevamente</button>
+                    <button class="btn btn-default" id="boxNegar" data-toggle="modal" data-target="#ediciones-denegar" onclick="verDetalles(@Html.DisplayFor(modelItem => item.publicacion_id));">Motivo</button>
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+}
+
+<div class="modal fade" id="ediciones-denegar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="tituloBox">Titulo</h4>
+            </div>
+            <div class="modal-body">
+                <div id="ediciones-box">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    function verDetalles(id) {
+        $("#tituloBox").text("Detalles administrativas");
+        $('#ediciones-box').load('MotivoDeRechazo/' + id);
+    }
+</script>
+<div class="pageList" id="paginadoAprobacion" data-otf-target="#usuarios">
+    @Html.PagedListPager(Model, pagina => Url.Action("", new { pagina }))
+</div>

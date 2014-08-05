@@ -16,7 +16,7 @@ namespace Blog.Controllers.Repositorios
         // Publicaciones para aprobar
         public List<Por_aprovar> porAprovar()
         {
-            return db.Por_aprovar.ToList();
+            return db.Por_aprovar.Where(u => u.estado_id == 1).ToList();
         }
 
         // Publicacion por aprobar
@@ -76,6 +76,34 @@ namespace Blog.Controllers.Repositorios
             }
 
             return mostrar;
+        }
+
+        public List<Por_aprovar> rechazadas()
+        {
+            var rechazado = db.Por_aprovar.Where(u => u.estado_id == 3 || u.estado_id == 4);
+            return rechazado.ToList();
+        }
+
+        public List<Por_aprovar> aprobadas()
+        {
+            var rechazado = db.Por_aprovar.Where(u => u.estado_id == 2);
+            return rechazado.ToList();
+        }
+
+        public List<Por_aprovar> historial()
+        {
+            return db.Por_aprovar.ToList();
+        }
+        
+        public Aprovacion motivo(int id)
+        {
+            var r = db.Aprovaciones
+                .Join(db.Userios, d => d.usuario_id, u => u.usuario_id, (d, u) => new { usuario = u.usuario1, fecha_de_aprovacion = d.fecha_de_aprovacion, motivos = d.motivos, publicacion_id = d.publicacion_id })
+                .FirstOrDefault(p => p.publicacion_id == id);
+
+            Aprovacion detalle = new Aprovacion { usuario = r.usuario, motivos = r.motivos, fecha_de_aprovacion = r.fecha_de_aprovacion};
+           
+            return detalle;
         }
     }
 }

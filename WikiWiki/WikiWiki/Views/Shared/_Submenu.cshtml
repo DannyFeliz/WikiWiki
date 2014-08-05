@@ -3,11 +3,13 @@
 {
     <div class="submenu">
     <ul class="listaSubmenu">
-        <li><a href="#">Publicaciones Aprobadas</a></li>
+        <li><a href="@Url.Action("Index","Aprovacion")">Publicaciones por aprobar</a></li>
         <span>|</span>
-        <li> <a id="linkRechazado" href="#">Publicaciones Rechazadas</a></li>
+        <li><a href="@Url.Action("Aprobadas","Aprovacion")">Publicaciones Aprobadas</a></li>
         <span>|</span>
-        <li><a href="#">Historial</a></li>
+        <li> <a id="linkRechazado" href="@Url.Action("Rechazadas", "Aprovacion")">Publicaciones Rechazadas</a></li>
+        <span>|</span>
+        <li><a href="@Url.Action("Historial", "Aprovacion")">Historial</a></li>
     </ul>
 </div>
 }

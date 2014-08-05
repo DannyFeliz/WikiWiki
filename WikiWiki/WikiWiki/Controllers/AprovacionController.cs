@@ -39,17 +39,42 @@ namespace Blog.Controllers
         }
 
         // Rechazar publicaciones
-        public ActionResult Rechazar(int id = 0, int estado = 0, string motivo = "")
+        public ActionResult Rechazar(int id = 0, int estado = 0, string motivos = "")
         {
 
             int usuario = repositorioUsuario.getIdUsuario(User.Identity.Name);
 
             if (id != 0 && usuario != 0 && estado != 0)
             {
-                repositorio.rechazar(id, estado, usuario, motivo);
+                repositorio.rechazar(id, estado, usuario, motivos);
             }
 
             return RedirectToAction("Index", "Aprovacion");
+        }
+
+        // Rechazadas
+        public ActionResult Rechazadas(int pagina = 1)
+        {
+
+            return View(repositorio.rechazadas().ToPagedList(pagina, 6));
+        }
+
+        // Aprobadas
+        public ActionResult Aprobadas(int pagina = 1)
+        {
+
+            return View(repositorio.aprobadas().ToPagedList(pagina, 6));
+        }
+
+        // Historial
+        public ActionResult Historial(int pagina = 1)
+        {
+            return View(repositorio.historial().ToPagedList(pagina, 6));
+        }
+
+        public ActionResult MotivoDeRechazo(int id = 0)
+        {
+            return View(repositorio.motivo(id));
         }
     }
 }
