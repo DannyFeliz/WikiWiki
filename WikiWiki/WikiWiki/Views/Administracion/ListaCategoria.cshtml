@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Blog.Models.Categoria>
+
+@{
+    ViewBag.Title = "ListaCategoria";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListaCategoria</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva categoria", "Categoria", "Administracion", routeValues: null , htmlAttributes: new { @class = "btn btn-default"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.categoria)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoria)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

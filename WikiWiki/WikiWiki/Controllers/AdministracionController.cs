@@ -77,9 +77,31 @@ namespace Blog.Controllers
                     categoria = datosCategoria.categoria
                 });
                 db.SaveChanges();
-                return View();
+                return RedirectToAction("ListaCategoria"); ;
             }
             return View();
         }
+
+        public ActionResult ListaCategoria()
+        {
+            return View(db.categoria.ToList());
+        }
+
+        //[HttpPost]
+        //public ActionResult Categoria(Categoria datosCategoria)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        db.categoria.Add(new Categoria
+        //        {
+        //            categoria = datosCategoria.categoria
+        //        });
+        //        db.SaveChanges();
+        //        return View();
+        //    }
+        //    return View();
+        //}
+
+
     }
 }
