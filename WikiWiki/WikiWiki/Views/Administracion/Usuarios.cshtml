@@ -1,53 +1,104 @@
 ﻿@using PagedList;
 @using PagedList.Mvc;
 @model IPagedList<Blog.Models.Usuario>
-@{ Html.RenderPartial("~/Views/Shared/_Submenu.cshtml"); }
 
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Usuarios</title>
-</head>
-<body>
-    @ViewBag.mensaje
-  <table>
-
-    @foreach (var item in Model) {
-        
-        <tr>
-            <td width="90" rowspan="4"><img src="@Url.Content("~/Images/Usuarios/" + item.foto)" width="100" height="100"/></td>
-            <td width="80">@Html.DisplayNameFor(model => model.First().usuario1):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.usuario1)</td>
-        </tr>
-        <tr>
-            <td width="150">@Html.DisplayNameFor(model => model.First().nombreCompleto):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.nombreCompleto)</td>
-        </tr>
-        <tr>
-            <td>@Html.DisplayNameFor(model => model.First().rol):</td>
-            <td colspan="2">@Html.DisplayFor(modelItem => item.rol)</td>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <button class="btn btn-primary" data-toggle="modal" data-target="#ediciones-administracion" onclick="cambiar(@item.usuario_id);">Cambiar rol</button>
-                <button class="btn btn-primary" data-toggle="modal" data-target="#ediciones-administracion" onclick="detalles(@item.usuario_id);">Detalles</button>
-                <button class="btn btn-primary" id="estado" onclick="estadoUsuario(@item.usuario_id);">
-                   @if(item.estado == 1){
-                       <n>Desactivar</n>
-                   }
-                   else
-                   {
-                       <n>Activar</n>
-                   }
-                </button>
-            </td>
-        </tr>
+<style>
+    .pageList {
+        margin-left: 3%;
     }
+</style>
+
+
+
+<style>
+    .submenuAdmin {
+        margin-top: -1px;
+    }
+
+        .submenuAdmin ul {
+            -webkit-transform: translateY(-10px);
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: #1656C0;
+        }
+
+        .submenuAdmin li {
+            display: inline-block;
+        }
+
+        .submenuAdmin ul li a {
+            text-decoration: none;
+            color: white;
+        }
+</style>
+<div class="submenuAdmin">
+    <ul class="listaSubmenu">
+        <li><a href="@Url.Action("Index","Administracion")">Administración</a></li>
+       
+    </ul>
+</div>
+
+<section class="alinear">
+    <h2 align="center">Lista de usuarios</h2>
+
+    @foreach (var item in Model)
+{
+     //Esta no es la tabla de aprobaciones es solo que tomé su estilizado porque me dio weba 
+     //cambiarlo :D att.Danny
+    <table id="tblAprobaciones">
+
+        <thead>
+            <tr>
+
+                <!-- Esto aquí se debe cambiar para que sea dinamico-->
+                <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
+                @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
+                <td id="imgUsuario"><img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")' /></td>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>@Html.DisplayNameFor(model => model.First().usuario1):</td>
+                <td>@Html.DisplayFor(modelItem => item.usuario1)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.First().nombreCompleto):</td>
+                <td>@Html.DisplayFor(modelItem => item.nombreCompleto)</td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.First().rol):</td>
+                <td>@Html.DisplayFor(modelItem => item.rol)</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#ediciones-administracion" onclick="cambiar(@item.usuario_id);">Rol</button>
+                
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#ediciones-administracion" onclick="detalles(@item.usuario_id);">Detalles</button>
+                
+                    <button class="btn btn-primary" id="estado" onclick="estadoUsuario(@item.usuario_id);">
     
+                            @if (item.estado == 1)
+                            {
+                                <span>Activar</span>
+                            }
+                            else
+                            {
+                                <span>Descativar</span>
+                            }
+                    </button>
+                </td>
+        </tr>
+            
+        </tbody>
     </table>
+}
+
+    </section>
 
     
 

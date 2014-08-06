@@ -413,7 +413,7 @@ footer ul li a:link {
     margin-right: 43px;
 }
 .alinear {
-    margin-left: 4%;
+    margin-left: 3%;
 }
 /*Botones sociales de compartir*/
 .botonesCompartir h4{
@@ -475,7 +475,6 @@ footer ul li a:link {
     display: inline-block;
    margin-right: 50%;
 }
-/* */
 /*Contactos*/
 #contInfo figure img{    
     border-radius: 50%;
