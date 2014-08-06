@@ -28,9 +28,10 @@
 </div>
 
 
+
 <div class="contenidoPagina">
     
-    <h2 align="center" style="margin-left: 170px;">Publicaciones Recientes</h2>
+    <h2 align="center" style="margin-left: 170px;">Publicaciones mas visitadas</h2>
 
     <a href="@Url.Action("publicaciones")?categoria=Deporte">Test categoria</a>
     <div id="contenedorPost">
@@ -62,12 +63,5 @@
 </div>
 
 <div class="pageList" id="paginadoAprobacion" data-otf-target="#usuarios">
-    @if(ViewBag.busqueda == ""){
-        @Html.PagedListPager(Model, pagina => Url.Action("Publicaciones", new { pagina }));
-    }
-    else
-    {
-        @Html.PagedListPager(Model, pagina => Url.Action("Publicaciones", new { busqueda = ViewBag.busqueda, pagina }));
-    }
-    
+    @Html.PagedListPager(Model, pagina => Url.Action("PublicacionesMasVisitadas", new { pagina }))
 </div>

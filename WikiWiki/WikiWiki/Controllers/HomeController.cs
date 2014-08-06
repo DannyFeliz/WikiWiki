@@ -12,6 +12,7 @@ using Blog.Controllers.Repositorios;
 using System.Web.Security;
 using WikiWiki.Models;
 using WikiWiki.Controllers.Repositorios;
+using PagedList;
 
 namespace Blog.Controllers
 {
@@ -25,41 +26,26 @@ namespace Blog.Controllers
         //
         // GET: /BlogPost/
 
-        public ActionResult Publicaciones(String busqueda = null, int categoria = 0)
+        public ActionResult Publicaciones(int pagina = 1, String busqueda = null)
         {
-           
-                if (busqueda == null || categoria == 0)
-                {
-                    var model = db.publicaciones
-                   .Where(p => p.estado_id == 2)
-                  .OrderBy(r => r.fecha_publicacion)
-                  .Take(20).ToList();
-                    return View(model);
-                }
-                else if(busqueda != null){
-                    var model = db.publicaciones
-                        .Where(p => p.estado_id == 2 && p.titulo.Contains(busqueda) || p.informacion.Contains(busqueda))
-                       .OrderBy(r => r.fecha_publicacion)
-                       .Take(20).ToList();
-                
-                        return View(model);
-              
-                }
-                else if (categoria != null)
-                {
-                    var model = db.publicaciones
-                        .Where(p => p.categoria_id == categoria)
-                       .OrderBy(r => r.fecha_publicacion)
-                       .ToList();
-                    return View(model);
-                }
-                else {
-
-                    return null;
-                }
+            ViewBag.busqueda = busqueda;
+            if (busqueda == null)
+            {
+                ViewBag.busqueda = "";
+                return View(repositorioPublicacion.getTodasLasPublicaciones().ToPagedList(pagina, 10));
+            }
+            else
+            {
+                ViewBag.busqueda = busqueda;
+                return View(repositorioPublicacion.buscador(busqueda).ToPagedList(pagina, 2));
+            }
 
         }
 
+        public ActionResult PublicacionesMasVisitadas(int pagina = 1)
+        {
+            return View(repositorioPublicacion.masVisitas().ToPagedList(pagina, 10));
+        }
 
       
         public ActionResult Acerca() {
@@ -93,9 +79,12 @@ namespace Blog.Controllers
         //
         // GET: /BlogPost/Details/5
 
+        // Mostrar informacion seleccionado
         public ActionResult Informacion(int id = 0)
         {
-
+            if(id != 0){
+                repositorioPublicacion.contadorDeVisitas(id);
+            }
             return View(repositorioPublicacion.getPublicacion(id));
         }
 
