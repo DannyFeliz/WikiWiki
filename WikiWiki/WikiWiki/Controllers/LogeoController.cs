@@ -2,6 +2,7 @@
 using Blog.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -59,10 +60,12 @@ namespace Blog.Controllers
         }
         
         [HttpPost]
-        public ActionResult Registrar(Registro datosUsuario)
+        public ActionResult Registrar(Registro datosUsuario, HttpPostedFileBase foto = null)
         {
             if (ModelState.IsValid)
             {
+
+                //Agregar información de usuario y guardar
                 db.Registros.Add(new Registro
                 {
                     nombre = datosUsuario.nombre,
@@ -74,8 +77,42 @@ namespace Blog.Controllers
                     direccion_ip = Request.ServerVariables["REMOTE_ADDR"],
                     email = datosUsuario.email,
                     direccion = datosUsuario.direccion,
+                    ocupacion = datosUsuario.ocupacion
                 });
                 db.SaveChanges();
+
+
+                //Guardar foto de usuario y guardar todos los datos.
+                if (foto != null)
+                {
+                    var data = new byte[foto.ContentLength];
+                    foto.InputStream.Read(data, 0, foto.ContentLength);
+                    var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
+                    var filename = Path.Combine(path, datosUsuario.usuario + ".jpg");
+                    System.IO.File.WriteAllBytes(Path.Combine(path, filename), data);
+                    ViewBag.ImageUploaded = filename;
+                    var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
+                    db.Userios.Find(idUsuario).foto = path + filename;
+                }
+                else {
+                    if (datosUsuario.direccion.ToLower() == "femenino") { 
+                        var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
+                        var filename = Path.Combine(path, "femeninoSysF.jpg");
+                        var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
+                        db.Userios.Find(idUsuario).foto = path + filename;
+                    }
+                    else
+                    {
+                        var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
+                        var filename = Path.Combine(path, "masculinoSysF.jpg");
+                        var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
+                        db.Userios.Find(idUsuario).foto = path + filename;
+                    }
+                }
+                db.SaveChanges();
+
+
+                //Iniciar sesión de usuario y redirigir al index
                 if (repositorioUsuario.validarUsuario(datosUsuario.usuario, md5(datosUsuario.clave)))
                 {
                     ViewBag.usuario = datosUsuario.usuario;
