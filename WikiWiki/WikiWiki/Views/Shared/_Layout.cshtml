@@ -6,7 +6,7 @@
     <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title - Mi aplicación ASP.NET MVC</title>
+        <title>@ViewBag.Title - WikiWiki</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
         <link href="~/Content/bootstrap.css" rel="stylesheet" />
@@ -17,7 +17,17 @@
 
         @Scripts.Render("~/bundles/modernizr")
         @Scripts.Render("~/bundles/jquery")
-
+        
+        <script>
+            function imageOnError(img) {
+                console.log(img);
+                img.onerror = '';
+                var stub = $('<div />')
+                    .addClass('stub').html('<img src="/Images/Usuarios/masculinoSysM.png"/>');
+                $(img).parent().html(stub);
+                return true;
+            }
+        </script>
     </head>
 <body>
     <header>

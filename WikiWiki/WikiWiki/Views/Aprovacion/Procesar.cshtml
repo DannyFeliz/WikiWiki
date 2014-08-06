@@ -28,8 +28,9 @@
 
     <p>Fecha de publicacion: @Html.DisplayFor(model => model.fecha_publicacion)</p>
 
-    <button class="btn btn-primary" id="aprobar" onclick="if(confirm('Deseas procesar?')){location.href='@Url.Action("Aprovar", "Aprovacion", new { id = Model.publicacion_id })';}">Aprovar</button> |
-    <button class="btn btn-primary" id="boxNegar" onclick="denegado(@Model.publicacion_id);">Rechazar</button>
+    <button class="btn btn-success" id="aprobar" onclick="if(confirm('Deseas procesar?')){location.href='@Url.Action("Aprovar", "Aprovacion", new { id = Model.publicacion_id })';}">Aprobar</button> 
+    <button class="btn btn-danger" id="boxNegar" onclick="denegado(@Model.publicacion_id);">Rechazar</button>
+    <a href="@Request.ServerVariables["http_referer"]" class="btn btn-info">Volver</a>
 
 </div>
 <div class="modal fade" id="ediciones-denegar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

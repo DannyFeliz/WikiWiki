@@ -7,60 +7,26 @@
     .pageList {
         margin-left: 3%;
     }
+
 </style>
-
-
-
-<style>
-    .submenuAdmin {
-        text-align: center;    
-    }
-    
-     .submenuAdmin {
-        margin-top: -1px;
-    }
-
-        .submenuAdmin ul {
-            -webkit-transform: translateY(-10px);
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            background-color: #1656C0;
-        }
-
-        .submenuAdmin li {
-            display: inline-block;
-        }
-
-        .submenuAdmin ul li a {
-            text-decoration: none;
-            color: white;
-        }
-</style>
-<div class="submenuAdmin">
-    <ul class="listaSubmenu">
-        <li><a href="@Url.Action("Index","Administracion")">Administración</a></li>
-       
-    </ul>
-</div>
 
 <section class="alinear">
     <h2 align="center">Lista de usuarios</h2>
     <hr />
-
+    
     @foreach (var item in Model)
 {
      //Esta no es la tabla de aprobaciones es solo que tomé su estilizado porque me dio weba 
      //cambiarlo :D att.Danny
+        
     <table id="tblAprobaciones">
 
         <thead>
             <tr>
 
-                <!-- Esto aquí se debe cambiar para que sea dinamico-->
-                <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
-                @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
-                <td id="imgUsuario"><img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")' /></td>
+               
+                <td id="imgUsuario"><img onerror="return imageOnError(this);" src='@Url.Content("~/Images/Usuarios/"+@item.usuario1+".jpg")'  /></td>
+
 
             </tr>
 

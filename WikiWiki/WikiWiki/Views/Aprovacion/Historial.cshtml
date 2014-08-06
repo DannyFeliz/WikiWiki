@@ -26,10 +26,7 @@
         <thead>
             <tr>
 
-                <!-- Esto aquí se debe cambiar para que sea dinamico-->
-                <!-- @Url.Content("~/Images/Usuarios/" + item.foto) -->
-                @*<td width="90" rowspan="6"><img src="@Url.Content("~/Images/Usuarios/masculinoSysM.png")" width="100" height="100" /></td>*@
-                <td id="imgUsuario"><img src='@Url.Content("~/Images/Usuarios/masculinoSysM.png")' /></td>
+                <td id="imgUsuario"><img onerror="return imageOnError(this);" src='@Url.Content("~/Images/Usuarios/"+@item.usuario+".jpg")' /></td>
                 
             </tr>
             
@@ -62,11 +59,11 @@
                 <td colspan="2">@Html.DisplayFor(modelItem => item.estado)</td>
             </tr>
 
-            <tr>
+            @*<tr>
                 <td colspan="2" align="center">
                     <button class="btn btn-default" onclick="location.href = '@Url.Action("Procesar", "Aprovacion", new { id = item.publicacion_id })';">Procesar</button>
                 </td>
-            </tr>
+            </tr>*@
 
         </tbody>
 

@@ -229,7 +229,9 @@ footer ul li a:link {
    padding-bottom: 5px;
    color:#428bca ;
 }
-
+    .titulos div a img {
+        border: 15px gray solid;
+    }
 .submenu {
     
     margin-top: 5px;
@@ -483,23 +485,40 @@ footer ul li a:link {
         width: 120px;
     }
 /*Contactos*/
-#contInfo figure img{    
-    border-radius: 50%;
-     
-    border: 5px solid #428bca;
-     width: 20%;
-     -webkit-transition: all 0.50s ease;
-     
+#contInfo {
+    text-align: center;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-    #contInfo figure img:hover {
+
+#contInfo div img{    
+    border-radius: 50%;
+    
+    border: 5px solid #111063;
+     width: 60%;
+     margin-top: 15px;
+     -webkit-transition: all 0.50s ease;
+}
+    #contInfo div img:hover {
         -webkit-transform: scale(1.1,1.1) rotate(20deg);
          
 }
-#contInfo figure figcaption {
-    text-align: center;
-    background-color: red; 
+
+    #contInfo div span {
+
+        font-size: 18px;
+    }
+#contInfo div{
+    
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    vertical-align: top;
+    border: dashed 2px #eee;
+    margin-bottom: 10px;
 
 }
-#contInfo figure {
-   
+.puesto {
+    text-align: center;
 }
