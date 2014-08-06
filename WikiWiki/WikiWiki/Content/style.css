@@ -399,7 +399,9 @@ footer ul li a:link {
 #botonesHeader {
     display: inline-block;
     position: relative;
-    top: 40px;
+    margin-bottom: 40px;
+    
+   
 }
 .separador {
     font-size: 18px;
@@ -472,13 +474,18 @@ footer ul li a:link {
     margin-bottom: 50px;
 }
 #logo {
-    display: inline-block;
-   margin-right: 50%;
+    float: left;
+    position: relative;
+    top: -8px; 
+    
 }
+    #logo img {
+        width: 120px;
+    }
 /*Contactos*/
 #contInfo figure img{    
     border-radius: 50%;
-
+     
     border: 5px solid #428bca;
      width: 20%;
      -webkit-transition: all 0.50s ease;
@@ -492,4 +499,7 @@ footer ul li a:link {
     text-align: center;
     background-color: red; 
 
+}
+#contInfo figure {
+   
 }
