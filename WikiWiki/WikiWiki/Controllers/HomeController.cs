@@ -37,7 +37,7 @@ namespace Blog.Controllers
             else
             {
                 ViewBag.busqueda = busqueda;
-                return View(repositorioPublicacion.buscador(busqueda).ToPagedList(pagina, 2));
+                return View(repositorioPublicacion.buscador(busqueda).ToPagedList(pagina, 10));
             }
 
         }
