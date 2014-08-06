@@ -103,6 +103,12 @@ namespace Blog.Controllers.Repositorios
             return id;
         }
 
+        // Get nombre de usuario por id
+        public string getNombreDeUsuario(int id)
+        {
+            return db.Userios.FirstOrDefault(u => u.usuario_id == id).usuario1;
+        }
+
         // Cambiar rol del usuario
         public void CambiarRol(int id, int nuevoRol)
         {

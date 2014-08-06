@@ -28,7 +28,6 @@ namespace Blog.Controllers
 
         public ActionResult Publicaciones(int pagina = 1, String busqueda = null)
         {
-            ViewBag.busqueda = busqueda;
             if (busqueda == null)
             {
                 ViewBag.busqueda = "";
@@ -42,12 +41,20 @@ namespace Blog.Controllers
 
         }
 
+        // Publicaciones mas vistas
         public ActionResult PublicacionesMasVisitadas(int pagina = 1)
         {
             return View(repositorioPublicacion.masVisitas().ToPagedList(pagina, 10));
         }
 
-      
+        // Publicaciones por autor
+        public ActionResult PublicacionesPorAutor(int autor, int pagina = 1)
+        {
+            ViewBag.autor = autor;
+            ViewBag.autorUsuario = repositorioUsuario.getNombreDeUsuario(autor);
+            return View(repositorioPublicacion.porAuthor(autor).ToPagedList(pagina, 10));
+        }
+
         public ActionResult Acerca() {
 
             return View();
@@ -61,8 +68,6 @@ namespace Blog.Controllers
                 .OrderByDescending(r => r.fecha_publicacion)
                 .Take(6).ToList();
         
-
-           
             return View(model);
             
         }

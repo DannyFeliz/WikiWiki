@@ -1,0 +1,66 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Blog.Models.publicaciones>
+@{
+    ViewBag.Title = "Publicaciones";
+}
+<style>
+    #publicaciones {
+        background-color: #2F67C4;
+        box-shadow: inset 0px -8px 0px 0px #1D547A;
+    }
+
+    .submenu {
+        margin-top: -1px;
+    }
+    .contenidoPagina {
+       
+        
+    }
+    </style >
+
+<div class="submenu">
+    <ul>
+        <li><a id="linksPublicaciones" href="@Url.Action("Publicaciones")">Más Recientes</a></li>
+        <span>|</span>
+        <li><a href="@Url.Action("PublicacionesMasVisitadas")">Más visitadas</a></li>
+    </ul>
+</div>
+
+
+<div class="contenidoPagina">
+    
+    <h2 align="center" style="margin-left: 170px;">Publicaciones de: @ViewBag.autorUsuario </h2>
+
+    <a href="@Url.Action("publicaciones")?categoria=Deporte">Test categoria</a>
+    <div id="contenedorPost">
+
+        @foreach (var item in Model)
+        {
+            <div class="listaPost">
+                <h2>@Html.ActionLink(@item.titulo, "Informacion", new { id = @item.publicacion_id })</h2>
+
+                <div id="divFecha">
+                    <h5>Fecha: @item.fecha_publicacion Visitas: @item.visitas</h5>
+                </div>
+
+                <div id="infomacionPost">
+                    @Html.Raw(item.informacion)
+                    <hr />
+                </div>
+            </div>
+            <div id="fuentePublicacion">
+                <b>Fuente:  </b> :@item.fuente_de_informacion
+            </div>
+               @Html.ActionLink("Ver más...", "Informacion", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default" });
+           <hr />
+             
+        }
+       
+    </div>
+        
+</div>
+
+<div class="pageList" id="paginadoAprobacion" data-otf-target="#usuarios">
+    @Html.PagedListPager(Model, pagina => Url.Action("PublicacionesPorAutor", new { autor = ViewBag.autor, pagina }));
+</div>
