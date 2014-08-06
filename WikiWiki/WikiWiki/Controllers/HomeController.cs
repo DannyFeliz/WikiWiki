@@ -103,7 +103,7 @@ namespace Blog.Controllers
 
 
             blogpost.usuario_id = id.getIdUsuario(User.Identity.Name);
-            blogpost.categoria_id = 1;
+            blogpost.listaDeCategorias = repositorioPublicacion.listaDeCategoria();
 
             return View(blogpost);
         }
@@ -115,14 +115,15 @@ namespace Blog.Controllers
         [RoleAttribute(Roles = "Administrador,Editor")]
         public ActionResult Create(publicaciones blogpost)
         {
-            if (ModelState.IsValid)
+            // verificacion del post al guardar
+            var agregar = repositorioPublicacion.agregar(blogpost);
+            if (ModelState.IsValid && agregar == "")
             {
-                db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
-                db.SaveChanges();
-                
                 return RedirectToAction("publicaciones");
             }
-
+            ViewBag.error = agregar;
+            blogpost.listaDeCategorias = repositorioPublicacion.listaDeCategoria();
+           
             return View(blogpost);
         }
 

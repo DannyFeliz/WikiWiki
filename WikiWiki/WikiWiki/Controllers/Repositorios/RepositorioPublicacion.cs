@@ -93,5 +93,28 @@ namespace WikiWiki.Controllers.Repositorios
         {
             return db.publicaciones.Where(p => p.usuario_id == id && p.estado_id == 2).OrderByDescending(f => f.fecha_publicacion).ToList();
         }
+
+        // Lista de categoria
+        public List<Categoria> listaDeCategoria()
+        {
+            return db.categoria.ToList();
+        }
+
+        public string agregar(publicaciones blogpost)
+        {
+            var r = "";
+
+            if (blogpost.categoria_id != 0)
+            {
+                db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
+                db.SaveChanges();
+            }
+            else
+            {
+                r = "Vuelva a intentar";
+            }
+
+            return r;
+        }
     }
 }

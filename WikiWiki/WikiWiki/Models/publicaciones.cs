@@ -36,6 +36,8 @@ namespace Blog.Models
         public virtual string usuarioP { get; set; }
         [NotMapped]
         public virtual string categoriaP { get; set; }
+        [NotMapped]
+        public virtual List<Categoria> listaDeCategorias { get; set; }
 
         public virtual ICollection<Aprovacion> Aprovacions { get; set; }
         public virtual ICollection<Estado> Estado { get; set; }

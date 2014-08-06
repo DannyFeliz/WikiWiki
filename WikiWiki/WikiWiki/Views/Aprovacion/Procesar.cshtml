@@ -19,10 +19,11 @@
     <h1 align="center">Administracion de publicaciones</h1>
 
     <hr />
-    <h3 align="center">@Html.DisplayFor(model => model.titulo)</h3>
+    <h3 align="center">Titulo: @Html.DisplayFor(model => model.titulo)</h3>
     
     <div>@Html.Raw(Model.informacion)</div>
 
+    <h4 align="left">Categoria: @Model.categoria</h4>
     <hr />
     <p>Publicado por: @Html.DisplayFor(model => model.usuario) </p>
 
