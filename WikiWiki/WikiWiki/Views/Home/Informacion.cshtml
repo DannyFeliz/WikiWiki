@@ -39,13 +39,6 @@
         </div>
     </div>
 
-
-       
-
-
-
-
-
     <div class="botonesCompartir">
         <h4>Comparte esto con tus amigos en las redes sociales</h4>
 
@@ -94,10 +87,6 @@
     </script>
     <!-- FIN LA API DE GOOGLE-->
 
-       
-        
-
-
         <div id="disqus_thread"></div>
         <script type="text/javascript">
             /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -119,8 +108,9 @@
 
     <p>
         
-        <div class="centrar"><a href="@Url.Action("publicaciones")" class="btn btn-success btn-lg ">Volver a las publicaciones</a></div>
+        <div class="centrar"><a href="@Request.ServerVariables["http_referer"]" class="btn btn-success btn-lg ">Volver a las publicaciones</a></div>
      
     </p>
 
 </div>
+
