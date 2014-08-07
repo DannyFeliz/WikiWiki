@@ -20,13 +20,12 @@ namespace WikiWiki.Controllers
         private string cuerpo = ""; // Cuerpo del mensaje
         private string usuarioEmail = ""; // Email a enviar
         
-        public NotificacionEmail(string usuario, string asunto, string cuerpo, string usuarioEmail = "")
+        public NotificacionEmail(string asunto, string cuerpo, string usuarioEmail)
         {
             email = new MailMessage();
             smtp = new SmtpClient();
             repositorio = new RepositorioUsuario();
 
-            this.usuario = usuario;
             this.asunto = asunto;
             this.cuerpo = cuerpo;
             this.usuarioEmail = usuarioEmail;

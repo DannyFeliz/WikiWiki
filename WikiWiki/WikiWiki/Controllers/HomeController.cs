@@ -131,7 +131,7 @@ namespace Blog.Controllers
         public ActionResult MisPublicaciones(int pagina = 1)
         {
             var id = repositorioUsuario.getIdUsuario(User.Identity.Name);
-            var publicaciones = repositorioPublicacion.getPublicacionesDelUsuario(id);
+            var publicaciones = repositorioPublicacion.getPublicacionesDelUsuario(id).ToPagedList(pagina, 10);
 
             return View(publicaciones);
         }

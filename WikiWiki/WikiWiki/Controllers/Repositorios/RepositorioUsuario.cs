@@ -171,6 +171,14 @@ namespace Blog.Controllers.Repositorios
             return validar;
         }
 
+        // Obtener registro del mismo usuario
+        public Registro getRegistro(int id)
+        {
+            var registro = db.Registros
+                .Join(db.Userios, r => r.registro_id, u => u.registro_id, (r, u) => new { nombre = r.nombre, apellido = r.apellido });
+            return null;
+        }
+
         // Encriptacion MD5
         public string md5(string itemToHash)
         {

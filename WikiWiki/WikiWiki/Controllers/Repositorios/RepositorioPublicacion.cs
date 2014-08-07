@@ -15,7 +15,7 @@ namespace WikiWiki.Controllers.Repositorios
         // Traer todas las publicaciones del propio usuario
         public List<publicaciones> getPublicacionesDelUsuario(int id)
         {
-            return db.publicaciones.Where(u => u.usuario_id == id && u.estado_id != 5).ToList();
+            return db.publicaciones.Where(u => u.usuario_id == id && u.estado_id != 5).OrderByDescending(r => r.fecha_publicacion).ToList();
         }
 
         // Actualizar publicacion del mismo usuario
