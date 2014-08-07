@@ -138,7 +138,7 @@ namespace Blog.Controllers
             var agregar = repositorioPublicacion.agregar(blogpost);
             if (ModelState.IsValid && agregar == "")
             {
-                return RedirectToAction("publicaciones");
+                return RedirectToAction("MisPublicaciones");
             }
             ViewBag.error = agregar;
             blogpost.listaDeCategorias = repositorioPublicacion.listaDeCategoria();
