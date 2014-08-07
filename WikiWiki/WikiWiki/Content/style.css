@@ -124,9 +124,11 @@ nav ul li a:link{
   
 }
 #redesSociales img {
-        
+   -webkit-transition: all 0.3s ease;
 }
-
+    #redesSociales img:hover {
+        -webkit-transform: rotate(360deg);
+    }
 #postReciente {
     
 }
@@ -229,9 +231,7 @@ footer ul li a:link {
    padding-bottom: 5px;
    color:#428bca ;
 }
-    .titulos div a img {
-        border: 15px gray solid;
-    }
+
 .submenu {
     
     margin-top: 5px;
@@ -419,6 +419,7 @@ footer ul li a:link {
 .alinear {
     margin-left: 3%;
 }
+  
 /*Botones sociales de compartir*/
 .botonesCompartir h4{
   color: gray;

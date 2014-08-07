@@ -23,13 +23,14 @@
 <h2>Lista de publicaciones pendientes</h2>
 @foreach (var item in Model)
 {
+
     
     <table id="tblAprobaciones">
 
         <thead>
             <tr>
 
-                <td id="imgUsuario"><img onerror="return imageOnError(this);" src='@Url.Content("~/Images/Usuarios/"+@item.usuario+".jpg")' /></td>
+            <td id="imgUsuario"><img onerror="return imageOnError(this);" src='@Url.Content("~/Images/Usuarios/"+@item.usuario+".jpg")' /></td>
                 
             </tr>
             
@@ -71,7 +72,7 @@
         </tbody>
 
     </table>
-
+    
 }
 
 <div class="pageList" id="paginadoAprobacion" data-otf-target="#usuarios">

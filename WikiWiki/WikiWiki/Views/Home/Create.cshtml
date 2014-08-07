@@ -58,18 +58,22 @@
 
                     <div class="form-group">
                         <label>Categoria:</label>
-                        <select id="categoria_id" name="categoria_id">
+                        <select id="categoria_id" name="categoria_id" class="form-control">
                             <option value="">Seleccionar</option>
                             @foreach (var lista in Model.listaDeCategorias)
                             {
                                 <option value="@lista.id">@lista.categoria</option>
-                                if(Model.categoria_id == lista.id){
+                                if (Model.categoria_id == lista.id)
+                                {
                                     <option value="@lista.id" selected>@lista.categoria</option>
                                 }
                             }
-                            
+
                         </select>
                     </div>
+
+
+
 
                     <div class="form-group">
                         <label for="fuente_de_informacion">Fuente de Informacion:</label>
@@ -80,7 +84,11 @@
         </div>
 
         <div>
-            @Html.ActionLink("Volver", "Index")
+            <p>
+
+                <div class="centrar"><a href="@Request.ServerVariables["http_referer"]" class="btn btn-success btn-lg ">Volver atras</a></div>
+
+            </p>
         </div>
     </div>
 

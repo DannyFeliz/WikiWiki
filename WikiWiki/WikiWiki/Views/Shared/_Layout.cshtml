@@ -49,8 +49,8 @@
             <ul>
                 <li id="inicio"><a href="@Url.Action("inicio","Home")">Inicio</a></li>
                 <li id="publicaciones"><a href="@Url.Action("publicaciones","Home")">Publicaciones</a></li>
-                <li id="acercanosotros"><a href="@Url.Action("Acerca","Home")">Acerca de nosotros</a></li>
-                <li id="contacto"><a href="@Url.Action("Contact","Home")">Contactos</a></li>
+                <li id="acercanosotros"><a href="@Url.Action("Acerca", "Home")">Acerca de nosotros</a></li>
+                <li id="contacto"><a href="@Url.Action("Contact", "Home")">Contactos</a></li>
                 @{
                     Blog.Controllers.Repositorios.RepositorioUsuario repositorioUsuario = new Blog.Controllers.Repositorios.RepositorioUsuario();
                     if (repositorioUsuario.getRolUsuario(User.Identity.Name) == "Administrador") { 
