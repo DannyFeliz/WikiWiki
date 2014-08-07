@@ -20,6 +20,9 @@
                 @Html.ActionLink("Publicar", "Create", "Home", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "btn btn-primary" })
                 <span> </span>
                 @Html.ActionLink("Mis publicaciones", "MisPublicaciones", "Home", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "btn btn-primary" })
+                <span> </span>
+                @Html.ActionLink("Perfil", "Index", "Perfil", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "btn btn-primary" })
+                
                 <div style="display:inline-block">
                     <text>
                         @using (Html.BeginForm("salir", "Logeo", FormMethod.Post, new { id = "logoutForm" }))

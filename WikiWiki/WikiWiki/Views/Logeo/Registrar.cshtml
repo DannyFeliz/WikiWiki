@@ -90,8 +90,8 @@
         <div style="width: 45%; display: inline-block; margin-left: 8%;">
             <label>Sexo:</label>
             <div>
-                <label>@Html.RadioButtonFor(model => model.direccion, "femenino") Femenino</label>
                 <label>@Html.RadioButtonFor(model => model.direccion, "masculino", new { @checked = "true" }) Masculino</label>
+                <label>@Html.RadioButtonFor(model => model.direccion, "femenino") Femenino</label>
                 @*Html.HiddenFor(model => model.direccion, htmlAttributes: new { id="direccion" })*@
                 @*Html.TextBoxFor(model => model.direccion, new { @class = "form-control" })*@
                 @Html.ValidationMessageFor(model => model.direccion)

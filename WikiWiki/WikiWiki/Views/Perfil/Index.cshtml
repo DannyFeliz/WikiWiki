@@ -1,0 +1,97 @@
+﻿@model Blog.Models.Registro
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="@Url.Content("~/Content/themess/base/minified/jquery-ui.min.css")" rel="stylesheet" />
+<!-- Required jQuery and jQuery UI Javascript references -->
+<script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui-1.10.4.min.js")"></script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Perfil</h4>
+        <h3>@ViewBag.mensaje</h3>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.registro_id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nombre, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.nombre, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                @Html.ValidationMessageFor(model => model.nombre, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.apellido, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.apellido, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                @Html.ValidationMessageFor(model => model.apellido, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.nacimiento, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.TextBoxFor(model => model.nacimiento, new { @class = "form-label date-picker", required = "required" })
+            @Html.ValidationMessageFor(model => model.nacimiento)
+        </div>
+
+        <script type="text/javascript">
+            $(function () {
+                // This will make every element with the class "date-picker" into a DatePicker element
+                $('.date-picker').datepicker({
+                    dateFormat: 'dd/mm/yy',
+                    yearRange: "1870:2014",
+                    changeMonth: true,
+                    changeYear: true,
+                    numberOfMonths: 1,
+                    dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+                    monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
+                        'Junio', 'Julio', 'Agosto', 'Septiembre',
+                        'Octubre', 'Noviembre', 'Diciembre'],
+                    monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr',
+                        'May', 'Jun', 'Jul', 'Ago',
+                        'Sep', 'Oct', 'Nov', 'Dic']
+                });
+            })
+        </script>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.direccion, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @if (Model.direccion.ToLower() == "masculino")
+                {
+                    <label>@Html.RadioButtonFor(model => model.direccion, "Masculino", new { @checked = "true"}) Masculino</label>
+                    <label>@Html.RadioButtonFor(model => model.direccion, "Femenino") Femenino</label>
+                }
+                else
+                {
+                    <label>@Html.RadioButtonFor(model => model.direccion, "Masculino") Masculino</label>
+                    <label>@Html.RadioButtonFor(model => model.direccion, "Femenino", new { @checked = "true" }) Femenino</label>
+                }
+                @Html.ValidationMessageFor(model => model.direccion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ocupacion, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ocupacion, new { htmlAttributes = new { @class = "form-control", required = "required" } })
+                @Html.ValidationMessageFor(model => model.ocupacion, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar Cambios" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+

@@ -172,9 +172,26 @@ namespace Blog.Controllers.Repositorios
         // Obtener registro del mismo usuario
         public Registro getRegistro(int id)
         {
+            Registro resul = null;
+
             var registro = db.Registros
-                .Join(db.Userios, r => r.registro_id, u => u.registro_id, (r, u) => new { nombre = r.nombre, apellido = r.apellido });
-            return null;
+                .Join(db.Userios, r => r.registro_id, u => u.registro_id, (r, u) => new { nombre = r.nombre, apellido = r.apellido, nacimiento = r.nacimiento, ocupacion = r.ocupacion, registro_id = r.registro_id, direccion = r.direccion, usuario_id = u.usuario_id })
+                .FirstOrDefault(u => u.usuario_id == id);
+
+            resul = new Registro { nombre = registro.nombre, apellido = registro.apellido, nacimiento = registro.nacimiento, ocupacion = registro.ocupacion, registro_id = registro.registro_id, direccion = registro.direccion, usuario_id = registro.usuario_id };
+
+            return resul;
+        }
+
+        public void actualizar(Registro datos)
+        {
+            var registro = db.Registros.FirstOrDefault(u => u.registro_id == datos.registro_id);
+            registro.nombre = datos.nombre;
+            registro.apellido = datos.apellido;
+            registro.direccion = datos.direccion;
+            registro.ocupacion = datos.ocupacion;
+
+            db.SaveChanges();
         }
 
         // Encriptacion MD5
