@@ -132,6 +132,16 @@ namespace Blog.Controllers.Repositorios
             db.SaveChanges();
         }
 
+        public string getEmailUsuario(string usuario)
+        {
+            var email = db.Userios.FirstOrDefault(u => u.usuario1 == usuario).email;
+            if(email == null || email == ""){
+                email = "";
+            }
+
+            return email;
+        }
+
         // Encriptacion MD5
         public string md5(string itemToHash)
         {
