@@ -157,13 +157,21 @@ namespace Blog.Controllers.Repositorios
 
         public string existe(string usuario, string email)
         {
-            var validar = db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower() || u.email.ToLower() == email.ToLower()).usuario1;
-
-            if (validar != null || validar != "")
+            var validar = "";
+            try
             {
-                validar = "El usuario ya existe";
+                validar = db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower() || u.email.ToLower() == email.ToLower()).usuario1;
+
+                if (validar != null || validar != "")
+                {
+                    validar = "El usuario ya existe";
+                }
+                else
+                {
+                    validar = "";
+                }
             }
-            else
+            catch
             {
                 validar = "";
             }
