@@ -159,6 +159,7 @@ namespace Blog.Controllers.Repositorios
         public string existe(string usuario, string email)
         {
             var validar = "";
+            /*
             try
             {
                 validar = db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower() || u.email.ToLower() == email.ToLower()).usuario1;
@@ -175,7 +176,7 @@ namespace Blog.Controllers.Repositorios
             catch
             {
                 validar = "";
-            }
+            }*/
 
             return validar;
         }
