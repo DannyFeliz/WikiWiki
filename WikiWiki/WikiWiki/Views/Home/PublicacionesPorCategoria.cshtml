@@ -4,7 +4,6 @@
 
 @{
     ViewBag.Title = "PublicacionesPorCategoria";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <style>
@@ -30,11 +29,10 @@
     </ul>
 </div>
 
-
+<h2 style="text-align:center">Publicaciones de @ViewBag.nombreCategoria</h2>
 <div class="contenidoPagina">
 
-    <h2 class="centrar">Publicaciones de @ViewBag.nombreCategoria</h2>
-
+    
 
     <div id="contenedorPost">
 
