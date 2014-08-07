@@ -18,7 +18,16 @@
         o tan sólo quiere saludar; estamos a su disposición en cualquier momento. ¡No lo dudes! :D
         <a href="mailto:wikiwiki@gmail.com">wikiwiki@gmail.com</a>
     </p>
+    <!--"Registro en WikiWiki", pagina, email-->
+    <form action="~/Home/MensajeContacto" method="post">
+        <label>Asunto:</label>
+        <input name="asunto" type="text" /><br />
+        <label>Correo:</label>
+        <input type="email" name="correo" /><br />
+        <label>Cuerpo</label>
+        <textarea name="contenido"></textarea><br />
+        <input class="btn btn-default" type="submit" value="Enviar" />
 
-    <form></form>
+    </form>
 
 </section>

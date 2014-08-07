@@ -13,6 +13,7 @@ using System.Web.Security;
 using WikiWiki.Models;
 using WikiWiki.Controllers.Repositorios;
 using PagedList;
+using WikiWiki.Controllers;
 
 namespace Blog.Controllers
 {
@@ -72,7 +73,17 @@ namespace Blog.Controllers
             
         }
         public ActionResult Contact() {
+
             return View();
+        }
+        public ActionResult MensajeContacto(string asunto = null, string correo = null, string contenido = null)
+        {
+            if (asunto != null || correo != null || contenido != null) {
+                Html mensaje = new Html();
+                mensaje.contacto(asunto, correo, contenido);
+            }
+
+                return RedirectToAction("Contact");
         }
       
         public ActionResult Index()
@@ -124,7 +135,9 @@ namespace Blog.Controllers
             ViewBag.error = agregar;
             blogpost.listaDeCategorias = repositorioPublicacion.listaDeCategoria();
            
+            
             return View(blogpost);
+            
         }
 
         // Obtener publicaciones de los propios usuarios

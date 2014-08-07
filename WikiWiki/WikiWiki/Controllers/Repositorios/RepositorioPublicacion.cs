@@ -108,6 +108,7 @@ namespace WikiWiki.Controllers.Repositorios
             {
                 db.publicaciones.Add(new publicaciones { titulo = blogpost.titulo, informacion = blogpost.informacion, categoria_id = blogpost.categoria_id, usuario_id = blogpost.usuario_id, fuente_de_informacion = blogpost.fuente_de_informacion, fecha_publicacion = DateTime.Now, estado_id = 1 });
                 db.SaveChanges();
+                
             }
             else
             {

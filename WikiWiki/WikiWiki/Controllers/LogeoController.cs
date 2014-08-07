@@ -82,7 +82,11 @@ namespace Blog.Controllers
                         ocupacion = datosUsuario.ocupacion
                     });
                     db.SaveChanges();
+                    Html pagina = new Html();
+                    pagina.registro(datosUsuario.nombre, datosUsuario.apellido, datosUsuario.usuario,datosUsuario.email);
 
+                   // HtmlMensaje msj = new HtmlMensaje();
+                    
                     //Guardar foto de usuario y guardar todos los datos.
                     if (foto != null)
                     {
@@ -167,6 +171,9 @@ namespace Blog.Controllers
         //        }
         //    }
         //    return View();
+
+
+        
 
         public ActionResult Salir()
         {
