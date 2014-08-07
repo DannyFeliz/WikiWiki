@@ -14,22 +14,35 @@ namespace Blog.Controllers.Repositorios
         private UsersContext db = new  UsersContext ();
 
         // Validar usuario
-        public bool validarUsuario(string usuario, string clave)
+        public string validarUsuario(string usuario, string clave)
         {
-            //bool valido = false;
+            string mensaje = "";
 
-            var user = db.Userios.FirstOrDefault(r => r.usuario1.ToLower() == usuario.ToLower() && r.clave == clave);
+            var validar = db.Userios.FirstOrDefault(r => r.usuario1.ToLower() == usuario.ToLower());
 
-            if (user != null)
-            {
-                return true;
+            if(validar != null){
+                validar = db.Userios.FirstOrDefault(r => r.usuario1.ToLower() == usuario.ToLower() && r.clave == clave);
+                if (validar != null)
+                {
+                    mensaje = "";
+                }
+                else
+                {
+                    mensaje = "La contraseña es incorrecta. Intente nuevamente.";
+                }
             }
             else
             {
-                return false;
+                mensaje = "El usuario no existe.";
             }
 
-            //return valido;
+            if(mensaje == ""){
+                if(validar.estado != 6){
+                    mensaje = "Lo sentimos el usuario está desactivado";
+                }
+            }
+
+            return mensaje;
         }
 
         // Saber el rol del usuario
@@ -120,11 +133,11 @@ namespace Blog.Controllers.Repositorios
         // Cambio de estados del usuario
         public void CambiarEstado(int id)
         {
-            var estado = 0;
+            var estado = 4;
 
             var user = db.Userios.FirstOrDefault(u => u.usuario_id == id);
-            if(user.estado == 0){
-                estado = 1;
+            if(user.estado == 4){
+                estado = 6;
             }
 
             db.Userios.FirstOrDefault(u => u.usuario_id == id)

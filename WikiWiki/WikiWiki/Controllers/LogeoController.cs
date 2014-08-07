@@ -38,17 +38,17 @@ namespace Blog.Controllers
 
             if(ModelState.IsValid){
 
-                if (repositorioUsuario.validarUsuario(model.usuario, md5(model.clave)))
+                var validar = repositorioUsuario.validarUsuario(model.usuario, md5(model.clave));
+                if (validar == "")
                 {
                     ViewBag.usuario = model.usuario;
                     FormsAuthentication.SetAuthCookie(model.usuario, true);
+                    //return Redirect(Request.ServerVariables["http_referer"]);
                     return RedirectToAction("Index", "Home");
                 }
-                else
-                {
-                    ModelState.AddModelError("","Usuario o contrasena incorrecta");
-                    return View(model);
-                }
+
+                ModelState.AddModelError("", validar);
+                return View(model);
             }
             
             return View(model);
@@ -111,18 +111,9 @@ namespace Blog.Controllers
                 }
                 db.SaveChanges();
 
-
-                //Iniciar sesión de usuario y redirigir al index
-                if (repositorioUsuario.validarUsuario(datosUsuario.usuario, md5(datosUsuario.clave)))
-                {
-                    ViewBag.usuario = datosUsuario.usuario;
-                    FormsAuthentication.SetAuthCookie(datosUsuario.usuario, true);
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    return Content("No pudimos confirmar el inicio de seccion, intentalo mas tarde.");
-                }
+                // Validar login
+                FormsAuthentication.SetAuthCookie(datosUsuario.usuario, true);
+                return RedirectToAction("Index", "Home");
             }
             return View();
         }

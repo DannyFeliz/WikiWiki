@@ -8,43 +8,39 @@
     </div>*@
   
     <div>
-            @Html.DisplayNameFor(model => model.usuario1): @Html.DisplayFor(model => model.usuario1)
+        <strong>@Html.DisplayNameFor(model => model.usuario1):</strong> @Html.DisplayFor(model => model.usuario1)
     </div>
 
     <div>
-        @Html.DisplayNameFor(model => model.estado): @if (Model.estado == 1)
+        <strong>@Html.DisplayNameFor(model => model.estado):</strong> @if (Model.estado == 6)
                                                         {
-                                                            <n>Activo</n>
+                                                            <span>Activo</span>
                                                         }
                                                         else
                                                         {
-                                                            <n>Desactivado</n>
+                                                            <span>Desactivado</span>
                                                         }
     </div>
    
     
     <div>
-            @Html.DisplayNameFor(model => model.email): @Html.DisplayFor(model => model.email)
+        <strong>@Html.DisplayNameFor(model => model.email):</strong> @Html.DisplayFor(model => model.email)
     </div>
    
     <div>
-            @Html.DisplayNameFor(model => model.nombreCompleto): @Html.DisplayFor(model => model.nombreCompleto)
+        <strong>@Html.DisplayNameFor(model => model.nombreCompleto):</strong> @Html.DisplayFor(model => model.nombreCompleto)
     </div>
    
     <div class="display-label">
-            @Html.DisplayNameFor(model => model.rol): @Html.DisplayFor(model => model.rol)
+        <strong>@Html.DisplayNameFor(model => model.rol):</strong> @Html.DisplayFor(model => model.rol)
     </div>
     
     <div class="display-label">
-        @Html.DisplayNameFor(model => model.nacimiento): @Html.DisplayFor(model => model.nacimiento)
+        <strong>@Html.DisplayNameFor(model => model.nacimiento):</strong> @Html.DisplayFor(model => model.nacimiento)
     </div>
     
     <div class="display-label">
-        @Html.DisplayNameFor(model => model.ocupacion): @Html.DisplayFor(model => model.ocupacion)
-    </div>
-    
-    <div class="display-label">
-        @Html.DisplayNameFor(model => model.direccion): @Html.DisplayFor(model => model.direccion)
+        <strong>@Html.DisplayNameFor(model => model.ocupacion):</strong> @Html.DisplayFor(model => model.ocupacion)
     </div>
     
 </fieldset>
