@@ -42,8 +42,9 @@ namespace Blog.Controllers
                 var validar = repositorioUsuario.validarUsuario(model.usuario, md5(model.clave));
                 if (validar == "")
                 {
-                    ViewBag.usuario = model.usuario;
-                    FormsAuthentication.SetAuthCookie(model.usuario, true);
+                    var usuario = repositorioUsuario.corregirNombreDeUsuario(model.usuario);
+                    ViewBag.usuario = usuario;
+                    FormsAuthentication.SetAuthCookie(usuario, true);
                     //return Redirect(Request.ServerVariables["http_referer"]);
                     return RedirectToAction("Index", "Home");
                 }

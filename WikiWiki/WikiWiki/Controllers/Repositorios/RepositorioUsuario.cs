@@ -183,6 +183,7 @@ namespace Blog.Controllers.Repositorios
             return resul;
         }
 
+        // Guardar los cambios en el registro
         public void actualizar(Registro datos)
         {
             var registro = db.Registros.FirstOrDefault(u => u.registro_id == datos.registro_id);
@@ -194,6 +195,10 @@ namespace Blog.Controllers.Repositorios
             db.SaveChanges();
         }
 
+        public string corregirNombreDeUsuario(string usuario)
+        {
+            return db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower()).usuario1;
+        }
         // Encriptacion MD5
         public string md5(string itemToHash)
         {
