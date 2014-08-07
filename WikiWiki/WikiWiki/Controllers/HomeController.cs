@@ -56,6 +56,14 @@ namespace Blog.Controllers
             return View(repositorioPublicacion.porAuthor(autor).ToPagedList(pagina, 10));
         }
 
+        // Publicaciones por categoria
+        public ActionResult PublicacionesPorCategoria(int categoria_id, int pagina = 1)
+        {
+            ViewBag.categoria_id = categoria_id;
+            ViewBag.nombreCategoria = db.categoria.Find(categoria_id).categoria;
+            return View(repositorioPublicacion.porCategoria(categoria_id).ToPagedList(pagina, 10));
+        }
+
         public ActionResult Acerca() {
 
             return View();

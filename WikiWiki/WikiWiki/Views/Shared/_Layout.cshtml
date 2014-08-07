@@ -99,7 +99,7 @@
                             var array = db.categoria.ToArray(); 
                             foreach (var @item in array)
                             {
-                                <li><a href="@Url.Action("publicaciones")?categoria= @item.categoria">@item.categoria</a></li>
+                                <li><a href="@Url.Action("PublicacionesPorCategoria", new { categoria_id = @item.id })">@item.categoria</a></li>
                             }
                         }
 

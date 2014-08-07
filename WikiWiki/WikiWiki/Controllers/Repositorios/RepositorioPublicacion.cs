@@ -94,6 +94,12 @@ namespace WikiWiki.Controllers.Repositorios
             return db.publicaciones.Where(p => p.usuario_id == id && p.estado_id == 2).OrderByDescending(f => f.fecha_publicacion).ToList();
         }
 
+        // publicaciones por autot
+        public List<publicaciones> porCategoria(int categoria_id)
+        {
+            return db.publicaciones.Where(p => p.categoria_id == categoria_id && p.estado_id == 2).OrderByDescending(f => f.fecha_publicacion).ToList();
+        }
+
         // Lista de categoria
         public List<Categoria> listaDeCategoria()
         {

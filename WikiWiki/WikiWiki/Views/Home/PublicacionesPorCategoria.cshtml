@@ -1,9 +1,12 @@
 ﻿@using PagedList;
 @using PagedList.Mvc;
 @model IPagedList<Blog.Models.publicaciones>
+
 @{
-    ViewBag.Title = "Publicaciones";
+    ViewBag.Title = "PublicacionesPorCategoria";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <style>
     #publicaciones {
         background-color: #2F67C4;
@@ -14,11 +17,10 @@
         margin-top: -1px;
         text-align: center;
     }
+
     .contenidoPagina {
-       
-        
     }
-    </style >
+</style>
 
 <div class="submenu">
     <ul>
@@ -30,10 +32,10 @@
 
 
 <div class="contenidoPagina">
-    
-    <h2 align="center" style="margin-left: 170px;">Publicaciones de @ViewBag.autorUsuario </h2>
 
-    
+    <h2 class="centrar">Publicaciones de @ViewBag.nombreCategoria</h2>
+
+
     <div id="contenedorPost">
 
         @foreach (var item in Model)
@@ -53,15 +55,15 @@
             <div id="fuentePublicacion">
                 <b>Fuente:  </b> :@item.fuente_de_informacion
             </div>
-               @Html.ActionLink("Ver más...", "Informacion", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default" });
-           <hr />
-             
+            @Html.ActionLink("Ver más...", "Informacion", new { id = @item.publicacion_id }, htmlAttributes: new { id = "verMas", @class = "btn btn-default" });
+            <hr />
+
         }
-       
+
     </div>
-        
+
 </div>
 
 <div class="pageList" id="paginadoAprobacion" data-otf-target="#usuarios">
-    @Html.PagedListPager(Model, pagina => Url.Action("PublicacionesPorAutor", new { autor = ViewBag.autor, pagina }));
+    @Html.PagedListPager(Model, pagina => Url.Action("PublicacionesPorCategoria", new { categoria_id = ViewBag.categoria_id, pagina }));
 </div>
