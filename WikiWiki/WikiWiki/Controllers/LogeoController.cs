@@ -10,6 +10,7 @@ using System.Web;
 using System.Web.Helpers;
 using System.Web.Mvc;
 using System.Web.Security;
+using WikiWiki.Controllers;
 using WikiWiki.Models;
 
 namespace Blog.Controllers
@@ -21,7 +22,7 @@ namespace Blog.Controllers
         // GET: /Logeo/
 
         private UsersContext db = new UsersContext();
-        RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
+        private RepositorioUsuario repositorioUsuario = new RepositorioUsuario();
 
         public ActionResult Index() {
             return RedirectToAction("Iniciar");
@@ -64,56 +65,64 @@ namespace Blog.Controllers
         {
             if (ModelState.IsValid)
             {
+                var validar = repositorioUsuario.existe(datosUsuario.usuario, datosUsuario.email);
+                if(validar == ""){
+                    //Agregar información de usuario y guardar
+                    db.Registros.Add(new Registro
+                    {
+                        nombre = datosUsuario.nombre,
+                        apellido = datosUsuario.apellido,
+                        usuario = datosUsuario.usuario,
+                        clave = md5(datosUsuario.clave),
+                        nacimiento = datosUsuario.nacimiento,
+                        hora_de_registro = DateTime.Now,
+                        direccion_ip = Request.ServerVariables["REMOTE_ADDR"],
+                        email = datosUsuario.email,
+                        direccion = datosUsuario.direccion,
+                        ocupacion = datosUsuario.ocupacion
+                    });
+                    db.SaveChanges();
 
-                //Agregar información de usuario y guardar
-                db.Registros.Add(new Registro
-                {
-                    nombre = datosUsuario.nombre,
-                    apellido = datosUsuario.apellido,
-                    usuario = datosUsuario.usuario,
-                    clave = md5(datosUsuario.clave),
-                    nacimiento = datosUsuario.nacimiento,
-                    hora_de_registro = DateTime.Now,
-                    direccion_ip = Request.ServerVariables["REMOTE_ADDR"],
-                    email = datosUsuario.email,
-                    direccion = datosUsuario.direccion,
-                    ocupacion = datosUsuario.ocupacion
-                });
-                db.SaveChanges();
-
-
-                //Guardar foto de usuario y guardar todos los datos.
-                if (foto != null)
-                {
-                    var data = new byte[foto.ContentLength];
-                    foto.InputStream.Read(data, 0, foto.ContentLength);
-                    var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
-                    var filename = Path.Combine(path, datosUsuario.usuario + ".jpg");
-                    System.IO.File.WriteAllBytes(Path.Combine(path, filename), data);
-                    ViewBag.ImageUploaded = filename;
-                    var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
-                    db.Userios.Find(idUsuario).foto = path + filename;
-                }
-                else {
-                    if (datosUsuario.direccion.ToLower() == "femenino") { 
+                    //Guardar foto de usuario y guardar todos los datos.
+                    if (foto != null)
+                    {
+                        var data = new byte[foto.ContentLength];
+                        foto.InputStream.Read(data, 0, foto.ContentLength);
                         var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
-                        var filename = Path.Combine(path, "femeninoSysF.jpg");
+                        var filename = Path.Combine(path, datosUsuario.usuario + ".jpg");
+                        System.IO.File.WriteAllBytes(Path.Combine(path, filename), data);
+                        ViewBag.ImageUploaded = filename;
                         var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
                         db.Userios.Find(idUsuario).foto = path + filename;
                     }
                     else
                     {
-                        var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
-                        var filename = Path.Combine(path, "masculinoSysF.jpg");
-                        var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
-                        db.Userios.Find(idUsuario).foto = path + filename;
+                        if (datosUsuario.direccion.ToLower() == "femenino")
+                        {
+                            var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
+                            var filename = Path.Combine(path, "femeninoSysF.jpg");
+                            var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
+                            db.Userios.Find(idUsuario).foto = path + filename;
+                        }
+                        else
+                        {
+                            var path = ControllerContext.HttpContext.Server.MapPath("/Images/Usuarios/");
+                            var filename = Path.Combine(path, "masculinoSysF.jpg");
+                            var idUsuario = repositorioUsuario.getIdUsuario(datosUsuario.usuario);
+                            db.Userios.Find(idUsuario).foto = path + filename;
+                        }
                     }
-                }
-                db.SaveChanges();
+                    db.SaveChanges();
 
-                // Validar login
-                FormsAuthentication.SetAuthCookie(datosUsuario.usuario, true);
-                return RedirectToAction("Index", "Home");
+                    // Validar login
+                    FormsAuthentication.SetAuthCookie(datosUsuario.usuario, true);
+                    return RedirectToAction("Index", "Home");
+                }
+
+                ViewBag.error = validar;
+                return View(datosUsuario);
+
+                
             }
             return View();
         }

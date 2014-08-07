@@ -111,7 +111,7 @@ namespace Blog.Controllers.Repositorios
         // Get ID del usaurio
         public int getIdUsuario(String usuario)
         {
-            var id = db.Userios.FirstOrDefault(u => u.usuario1 == usuario).usuario_id;
+            var id = db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower()).usuario_id;
 
             return id;
         }
@@ -153,6 +153,22 @@ namespace Blog.Controllers.Repositorios
             }
 
             return email;
+        }
+
+        public string existe(string usuario, string email)
+        {
+            var validar = db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower() || u.email.ToLower() == email.ToLower()).usuario1;
+
+            if (validar != null || validar != "")
+            {
+                validar = "El usuario ya existe";
+            }
+            else
+            {
+                validar = "";
+            }
+
+            return validar;
         }
 
         // Encriptacion MD5
