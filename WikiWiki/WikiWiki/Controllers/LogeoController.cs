@@ -59,14 +59,15 @@ namespace Blog.Controllers
         {
             return View();
         }
-        
+
         [HttpPost]
         public ActionResult Registrar(Registro datosUsuario, HttpPostedFileBase foto = null)
         {
             if (ModelState.IsValid)
             {
                 var validar = repositorioUsuario.existe(datosUsuario.usuario, datosUsuario.email);
-                if(validar == ""){
+                if (!validar)
+                {
                     //Agregar información de usuario y guardar
                     db.Registros.Add(new Registro
                     {
@@ -82,11 +83,10 @@ namespace Blog.Controllers
                         ocupacion = datosUsuario.ocupacion
                     });
                     db.SaveChanges();
-                    Html pagina = new Html();
-                    pagina.registro(datosUsuario.nombre, datosUsuario.apellido, datosUsuario.usuario,datosUsuario.email);
 
-                   // HtmlMensaje msj = new HtmlMensaje();
-                    
+                    Html pagina = new Html();
+                    pagina.registro(datosUsuario.nombre, datosUsuario.apellido, datosUsuario.usuario, datosUsuario.email);
+
                     //Guardar foto de usuario y guardar todos los datos.
                     if (foto != null)
                     {
@@ -123,10 +123,10 @@ namespace Blog.Controllers
                     return RedirectToAction("Index", "Home");
                 }
 
-                ViewBag.error = validar;
+                ViewBag.error = "El usuario ya existe";
                 return View(datosUsuario);
 
-                
+
             }
             return View();
         }
