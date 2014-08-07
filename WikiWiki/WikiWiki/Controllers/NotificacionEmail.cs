@@ -15,7 +15,6 @@ namespace WikiWiki.Controllers
         private SmtpClient smtp;
         private RepositorioUsuario repositorio;
         private string salida = null;
-        private string usuario = ""; // usuario
         private string asunto = ""; // Asunto del mensaje
         private string cuerpo = ""; // Cuerpo del mensaje
         private string usuarioEmail = ""; // Email a enviar
@@ -29,11 +28,6 @@ namespace WikiWiki.Controllers
             this.asunto = asunto;
             this.cuerpo = cuerpo;
             this.usuarioEmail = usuarioEmail;
-            string validar = repositorio.getEmailUsuario(usuario);
-
-            if(validar != ""){
-                usuarioEmail = validar;
-            }
 
         }
 

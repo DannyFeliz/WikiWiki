@@ -147,7 +147,8 @@ namespace Blog.Controllers.Repositorios
 
         public string getEmailUsuario(string usuario)
         {
-            var email = db.Userios.FirstOrDefault(u => u.usuario1 == usuario).email;
+            var email = db.Userios.FirstOrDefault(u => u.usuario1.ToLower() == usuario.ToLower()).email;
+
             if(email == null || email == ""){
                 email = "";
             }
